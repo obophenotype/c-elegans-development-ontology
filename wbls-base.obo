@@ -1,0 +1,11 @@
+format-version: 1.2
+data-version: wbls/releases/2019-04-12/wbls-base.obo
+ontology: wbls/wbls-base.obo
+property_value: http://purl.org/dc/elements/1.1/description "Ontology about the development and life stages of the C. elegans" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
+
+[Term]
+id: WBLS:00000000
+name: root node
+

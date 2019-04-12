@@ -1,0 +1,30 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/WBLS_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/wbls/wbls-base.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "val" : "Ontology about the development and life stages of the C. elegans"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "C. elegans Development Ontology"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "CC-BY"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2019-04-12/wbls-base.json"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
