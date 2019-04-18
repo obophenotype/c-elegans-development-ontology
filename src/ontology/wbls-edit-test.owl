@@ -4,18 +4,9 @@ Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
-Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/wbls.owl>
-
-Import(<http://purl.obolibrary.org/obo/wbls/imports/ro_import.owl>)
-
-Annotation(dce:title "C. elegans Development Ontology")
-Annotation(dcterms:license "CC-BY")
-Annotation(dce:description "Ontology about the development and life stages of the C. elegans")
-
 Annotation(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> "OBO-Edit 2.2-rc1"^^xsd:string)
 Annotation(<http://www.geneontology.org/formats/oboInOwl#date> "15:11:2017 12:24"^^xsd:string)
 Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "worm_development"^^xsd:string)
