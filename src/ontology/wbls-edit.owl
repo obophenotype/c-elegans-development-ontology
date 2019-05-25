@@ -2090,7 +2090,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000106> "WBls:0000106"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000106> "L1"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000106> <http://purl.obolibrary.org/obo/WBls_0000105>)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000110>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000107> (L2)
 
