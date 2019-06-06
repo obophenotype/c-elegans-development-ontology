@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wbls/wbls-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2019-06-05/wbls-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2019-06-06/wbls-base.owl"/>
         <dc:description>Ontology about the development and life stages of the C. elegans</dc:description>
         <dc:title>C. elegans Development Ontology</dc:title>
         <terms:license>CC-BY</terms:license>
@@ -24580,9 +24580,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000803 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000803 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000803">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000803">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24605,7 +24605,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during embryogenesis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000803"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000803"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during embryogenesis</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24613,9 +24613,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000804 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000804 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000804">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000804">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24638,7 +24638,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring post embryogenesis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000804"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000804"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs after embryogenesis</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24646,13 +24646,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000805 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000805 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000805">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000805">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000803"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000803"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000015"/>
@@ -24671,7 +24671,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during elongating embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000805"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000805"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the elongating embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24679,13 +24679,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000806 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000806 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000806">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000806">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000805"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000805"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000018"/>
@@ -24704,7 +24704,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during 1.5-fold embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000806"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000806"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the 1.5-fold embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24712,13 +24712,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000807 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000807 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000807">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000807">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000805"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000805"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000019"/>
@@ -24737,7 +24737,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during 2-fold embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000807"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000807"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the 2-fold embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24745,13 +24745,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000808 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000808 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000808">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000808">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000805"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000805"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000020"/>
@@ -24770,7 +24770,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during 3-fold embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000808"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000808"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the 3-fold embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24778,13 +24778,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000809 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000809 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000809">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000809">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000805"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000805"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000016"/>
@@ -24803,7 +24803,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during bean embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000809"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000809"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the bean embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24811,13 +24811,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000810 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000810 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000810">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000810">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000805"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000805"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000017"/>
@@ -24836,7 +24836,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during comma embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000810"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000810"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the comma embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24844,13 +24844,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000811 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000811 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000811">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000811">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000803"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000803"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000021"/>
@@ -24869,7 +24869,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during fully-elongated embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000811"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000811"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the fully-elongating embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24877,13 +24877,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000812 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000812 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000812">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000812">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000803"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000803"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000004"/>
@@ -24902,7 +24902,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during proliferating embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000812"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000812"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the proliferating embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24910,13 +24910,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000813 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000813 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000813">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000813">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000812"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000812"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000005"/>
@@ -24935,7 +24935,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during blastula embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000813"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000813"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the blastula embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24943,13 +24943,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000814 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000814 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000814">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000814">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000812"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000812"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000010"/>
@@ -24968,7 +24968,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during gastrulation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000814"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000814"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the gastrulating embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -24976,13 +24976,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000815 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000815 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000815">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000815">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000812"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000812"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000013"/>
@@ -25001,7 +25001,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during enclosing embryo</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000815"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000815"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the enclosing embryo life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -25009,13 +25009,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000816 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000816 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000816">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000816">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000804"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000804"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000041"/>
@@ -25034,7 +25034,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during adulthood</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000816"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000816"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the adult life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -25042,13 +25042,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000817 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000817 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000817">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000817">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000804"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000804"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000023"/>
@@ -25067,7 +25067,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during larval stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000817"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000817"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the larval life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -25075,13 +25075,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000818 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000818 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000818">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000818">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000817"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000817"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000024"/>
@@ -25100,7 +25100,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during L1 larval stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000818"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000818"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the L1 larval life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -25108,13 +25108,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000819 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000819 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000819">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000819">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000817"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000817"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000027"/>
@@ -25133,7 +25133,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during L2 larval stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000819"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000819"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the L2 larval life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -25141,13 +25141,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000820 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000820 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000820">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000820">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000817"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000817"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000035"/>
@@ -25166,7 +25166,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during L3 larval stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000820"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000820"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the L3 larval life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
@@ -25174,13 +25174,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/WBls:0000821 -->
+    <!-- http://purl.obolibrary.org/obo/WBls_0000821 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls:0000821">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000821">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls:0000817"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000817"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000038"/>
@@ -25199,7 +25199,7 @@
         <rdfs:label xml:lang="en">C. elegans life stage occurring during L4 larval stage</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls:0000821"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000821"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during the L4 larval life stage</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>

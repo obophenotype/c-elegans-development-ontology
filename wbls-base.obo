@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2019-06-05/wbls-base.obo
+data-version: wbls/releases/2019-06-06/wbls-base.obo
 date: 15:11:2017 12:24
 saved-by: danielaraciti
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -7998,97 +7998,97 @@ created_by: danielaraciti
 creation_date: 2017-11-14T10:15:40Z
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000803
+id: WBls:0000803
 name: C. elegans life stage occurring during embryogenesis
 def: "A C. elegans life stage that occurs during embryogenesis" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000804
+id: WBls:0000804
 name: C. elegans life stage occurring post embryogenesis
 def: "A C. elegans life stage that occurs after embryogenesis" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000805
+id: WBls:0000805
 name: C. elegans life stage occurring during elongating embryo
 def: "A C. elegans life stage that occurs during the elongating embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000806
+id: WBls:0000806
 name: C. elegans life stage occurring during 1.5-fold embryo
 def: "A C. elegans life stage that occurs during the 1.5-fold embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000807
+id: WBls:0000807
 name: C. elegans life stage occurring during 2-fold embryo
 def: "A C. elegans life stage that occurs during the 2-fold embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000808
+id: WBls:0000808
 name: C. elegans life stage occurring during 3-fold embryo
 def: "A C. elegans life stage that occurs during the 3-fold embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000809
+id: WBls:0000809
 name: C. elegans life stage occurring during bean embryo
 def: "A C. elegans life stage that occurs during the bean embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000810
+id: WBls:0000810
 name: C. elegans life stage occurring during comma embryo
 def: "A C. elegans life stage that occurs during the comma embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000811
+id: WBls:0000811
 name: C. elegans life stage occurring during fully-elongated embryo
 def: "A C. elegans life stage that occurs during the fully-elongating embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000812
+id: WBls:0000812
 name: C. elegans life stage occurring during proliferating embryo
 def: "A C. elegans life stage that occurs during the proliferating embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000813
+id: WBls:0000813
 name: C. elegans life stage occurring during blastula embryo
 def: "A C. elegans life stage that occurs during the blastula embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000814
+id: WBls:0000814
 name: C. elegans life stage occurring during gastrulation
 def: "A C. elegans life stage that occurs during the gastrulating embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000815
+id: WBls:0000815
 name: C. elegans life stage occurring during enclosing embryo
 def: "A C. elegans life stage that occurs during the enclosing embryo life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000816
+id: WBls:0000816
 name: C. elegans life stage occurring during adulthood
 def: "A C. elegans life stage that occurs during the adult life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000817
+id: WBls:0000817
 name: C. elegans life stage occurring during larval stage
 def: "A C. elegans life stage that occurs during the larval life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000818
+id: WBls:0000818
 name: C. elegans life stage occurring during L1 larval stage
 def: "A C. elegans life stage that occurs during the L1 larval life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000819
+id: WBls:0000819
 name: C. elegans life stage occurring during L2 larval stage
 def: "A C. elegans life stage that occurs during the L2 larval life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000820
+id: WBls:0000820
 name: C. elegans life stage occurring during L3 larval stage
 def: "A C. elegans life stage that occurs during the L3 larval life stage" [WB:WBPerson2987]
 
 [Term]
-id: http://purl.obolibrary.org/obo/WBls:0000821
+id: WBls:0000821
 name: C. elegans life stage occurring during L4 larval stage
 def: "A C. elegans life stage that occurs during the L4 larval life stage" [WB:WBPerson2987]
 
