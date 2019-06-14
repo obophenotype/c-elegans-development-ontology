@@ -19026,13 +19026,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000148",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000309",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000308"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000148",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000418",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -19206,13 +19206,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000388"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000176",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000268",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000267"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000176",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000498",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -19474,13 +19474,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000731"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000065",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000057"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000111",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000675"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000065",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000057"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000306",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -19526,13 +19526,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000254",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000594",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000802",
       "pred" : "is_a",
@@ -20498,17 +20498,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000496",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000166",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000724",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000709"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000166",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000496",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000613",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -20538,13 +20538,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000600"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000067",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000057"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000243",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000067",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000057"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000269",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -20662,13 +20662,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000029",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000548",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000018"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000402",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -20934,13 +20934,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000384",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000028",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000384",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000647",
       "pred" : "is_a",
@@ -20950,13 +20950,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000709",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000708"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000638",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000709",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000708"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000527",
       "pred" : "is_a",
@@ -21202,21 +21202,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000314",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000167",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000166"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000291",
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000314",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000373",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000372"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000291",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000202",
       "pred" : "is_a",
@@ -21330,13 +21330,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000287"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000143",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000142"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000397",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000396"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000143",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000142"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000192",
       "pred" : "is_a",
@@ -21498,13 +21498,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000004"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000112",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000659",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000112",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000406",
       "pred" : "is_a",
@@ -21526,13 +21526,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000076"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000639",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000020"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000276",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000639",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000020"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000542",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -21606,13 +21606,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000016"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000304",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000303"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000558",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000557"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000304",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000303"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000643",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -21626,13 +21626,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000017"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000437",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000436"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000036",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000437",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000436"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000522",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -22022,13 +22022,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000240",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000113",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000240",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000099",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -22290,13 +22290,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000280",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000436",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000280",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000133",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -22446,13 +22446,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000019"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000121",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000120"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000375",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000374"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000121",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000120"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000457",
       "pred" : "is_a",
@@ -22722,13 +22722,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000670",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000628",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000670",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000657",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -22798,13 +22798,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000426"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000306",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000305"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000158",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000306",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000305"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000430",
       "pred" : "is_a",
@@ -23106,13 +23106,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000018"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000159",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000286",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000159",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000265",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -23506,13 +23506,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000186"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000652",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000651"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000642",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000652",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000651"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000066",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -23558,21 +23558,21 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000529"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000035",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000108"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000272",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000014",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000108"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000038",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000195",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -23646,13 +23646,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000165",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000619",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000618"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000165",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000428",
       "pred" : "is_a",
@@ -23758,13 +23758,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000266",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000150",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000149"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000266",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000570",
       "pred" : "is_a",
@@ -23842,13 +23842,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000444"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000324",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000323"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000578",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000577"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000324",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000323"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000528",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -24074,13 +24074,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000312",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000512",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000312",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000027",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
@@ -24338,13 +24338,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000017"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000799",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000798"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000545",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000544"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000799",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000798"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000424",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -24626,13 +24626,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000380"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000706",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000711"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000261",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000706",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000711"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000027",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -24774,13 +24774,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000684",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000038"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000255",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000684",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000038"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000154",
       "pred" : "is_a",
@@ -24826,13 +24826,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000017"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000089",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000217",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000216"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000089",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000447",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -24846,17 +24846,17 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000204"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000459",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000458"
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000084",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000072"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000094",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000084",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000072"
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000459",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000458"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000544",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -24870,13 +24870,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000423",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000422"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000219",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000423",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000422"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000111",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -24894,13 +24894,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000689",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000688"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000435",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000434"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000689",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000688"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000361",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -24954,13 +24954,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000067",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000066"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000459",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000067",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000066"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000297",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -25218,13 +25218,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000019"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000519",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000518"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000280",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000279"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000519",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000518"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000318",
       "pred" : "is_a",
@@ -25354,13 +25354,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000248",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000247"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000154",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000248",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000247"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000478",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -25742,13 +25742,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000288",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000440",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000288",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000702",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -25838,13 +25838,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000020"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000485",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000670",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000485",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000155",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -26034,13 +26034,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000530",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000737",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000726"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000530",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000359",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -26086,13 +26086,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000344",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000343"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000598",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000597"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000344",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000343"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000410",
       "pred" : "is_a",
@@ -26194,10 +26194,6 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000454",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000467",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000016"
@@ -26205,6 +26201,10 @@
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000009",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000454",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000192",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -26458,13 +26458,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000027"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000214",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000213"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000468",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000467"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000214",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000213"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000169",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -26494,13 +26494,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000013"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000010",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000004"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000117",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000116"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000004"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000606",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -26526,13 +26526,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000128"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000691",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000038"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000262",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000691",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000038"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000222",
       "pred" : "is_a",
@@ -26550,13 +26550,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000525",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000017"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000227",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000525",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000017"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000248",
       "pred" : "is_a",
@@ -26730,13 +26730,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000182"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000180",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000413",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000180",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000163",
       "pred" : "is_a",
@@ -26798,13 +26798,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000019"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000629",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000628"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000176",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000629",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000628"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000439",
       "pred" : "is_a",
@@ -26998,13 +26998,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000116",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000115"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000367",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000116",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000115"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000263",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -27067,12 +27067,12 @@
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000104",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000105"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000104",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000101"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000104",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000215",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -27102,13 +27102,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000563"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000673",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000672"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000652",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000673",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000672"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000213",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -27166,13 +27166,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000532",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000739",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000726"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000532",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000552",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
@@ -27186,13 +27186,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000017"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/WBls_0000431",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
-      "obj" : "http://purl.obolibrary.org/obo/WBls_0000430"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000685",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000684"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/WBls_0000431",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002087",
+      "obj" : "http://purl.obolibrary.org/obo/WBls_0000430"
     } ],
     "id" : "http://purl.obolibrary.org/obo/wbls/wbls-base.json",
     "meta" : {
@@ -27229,7 +27229,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "Version: 1.04"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2019-06-06/wbls-base.json"
+      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2019-06-14/wbls-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
