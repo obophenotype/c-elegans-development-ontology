@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: wbls/releases/2019-06-06/wbls-full.obo
+data-version: wbls/releases/2019-06-14/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: danielaraciti
 auto-generated-by: OBO-Edit 2.2-rc1
 default-namespace: worm_development
 remark: Editors: Wen J. Chen & Daniela Raciti, Raymond Lee, Chris Grove, WormBase, Caltech. Jane Lomax, Wellcome Trust Sanger Institute.
 remark: Version: 1.04
-ontology: wbls/wbls-full.obo
+ontology: wbls/wbls-full
 property_value: http://purl.org/dc/elements/1.1/description "Ontology about the development and life stages of the C. elegans" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
