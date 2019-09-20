@@ -773,6 +773,9 @@ http://purl.obolibrary.org/obo/WBls_0000818
 http://purl.obolibrary.org/obo/WBls_0000819
 http://purl.obolibrary.org/obo/WBls_0000820
 http://purl.obolibrary.org/obo/WBls_0000821
+http://purl.obolibrary.org/obo/WBls_0000822
+http://purl.obolibrary.org/obo/WBls_0000823
+http://purl.obolibrary.org/obo/WBls_0000824
 term
 http://www.geneontology.org/formats/oboInOwl#SubsetProperty
 http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty
