@@ -18,7 +18,7 @@ Annotation(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> "OBO
 Annotation(<http://www.geneontology.org/formats/oboInOwl#date> "15:11:2017 12:24"^^xsd:string)
 Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "worm_development"^^xsd:string)
 Annotation(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2"^^xsd:string)
-Annotation(<http://www.geneontology.org/formats/oboInOwl#saved-by> "danielaraciti"^^xsd:string)
+Annotation(<http://www.geneontology.org/formats/oboInOwl#saved-by> "chris-grove"^^xsd:string)
 Annotation(rdfs:comment "Editors: Wen J. Chen & Daniela Raciti, Raymond Lee, Chris Grove, WormBase, Caltech. Jane Lomax, Wellcome Trust Sanger Institute."^^xsd:string)
 Annotation(rdfs:comment "Version: 1.04"^^xsd:string)
 
