@@ -796,6 +796,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000821>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000822>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000823>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000824>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000825>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000826>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002087>))
@@ -923,7 +925,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000002> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000002> "WBls:0000002"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000002> "all stages Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000002> <http://purl.obolibrary.org/obo/WBls_0000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000002> <http://purl.obolibrary.org/obo/WBls_0000826>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000003> (embryo Ce)
 
@@ -932,8 +934,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000003> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000003> "WBls:0000003"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000003> "embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000003> <http://purl.obolibrary.org/obo/WBls_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000003> <http://purl.obolibrary.org/obo/WBls_0000102>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000003> <http://purl.obolibrary.org/obo/WBls_0000825>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000004> (proliferating embryo Ce)
 
@@ -943,7 +945,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000004> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000004> "WBls:0000004"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000004> "proliferating embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000004> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000004> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000005> (blastula embryo Ce)
@@ -953,7 +955,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000005> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000005> "WBls:0000005"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000005> "blastula embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000005> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000005> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000006> (1-cell embryo Ce)
@@ -1007,7 +1009,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000010> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000010> "WBls:0000010"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000010> "gastrulating embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000010> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000010> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000004>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000005>))
 
@@ -1040,7 +1042,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000013> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000013> "WBls:0000013"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000013> "enclosing embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000013> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000013> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000014>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000014>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000010>))
@@ -1052,7 +1054,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000014> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000014> "WBls:0000014"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000014> "late cleavage stage embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000014> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000014> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000004>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000010>))
 
@@ -1064,7 +1066,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000015> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000015> "WBls:0000015"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000015> "elongating embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000015> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000015> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000003>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000010>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000004>))
@@ -1076,7 +1078,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000016> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000016> "WBls:0000016"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000016> "bean embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000016> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000016> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000015>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000013>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000014>))
@@ -1088,7 +1090,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000017> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000017> "WBls:0000017"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000017> "comma embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000017> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000017> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000015>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000016>))
 
@@ -1099,7 +1101,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000018> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000018> "WBls:0000018"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000018> "1.5-fold embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000018> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000018> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000015>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000017>))
 
@@ -1110,7 +1112,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000019> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000019> "WBls:0000019"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000019> "2-fold embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000019> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000019> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000015>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000018>))
 
@@ -1121,7 +1123,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000020> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000020> "WBls:0000020"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000020> "3-fold embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000020> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000020> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000015>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000019>))
 
@@ -1135,7 +1137,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000021> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000021> "WBls:0000021"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000021> "fully-elongated embryo Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000021> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000021> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000003>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000015>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000020>))
@@ -1147,7 +1149,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000022> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000022> "WBls:0000022"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000022> "postembryonic Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000022> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000022> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000023> (larva Ce)
@@ -1157,8 +1159,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000023> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000023> "WBls:0000023"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000023> "larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000023> <http://purl.obolibrary.org/obo/WBls_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000023> <http://purl.obolibrary.org/obo/WBls_0000105>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000023> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000022>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000003>))
 
@@ -1169,8 +1171,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000024> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000024> "WBls:0000024"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000024> "L1 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000024> <http://purl.obolibrary.org/obo/WBls_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000024> <http://purl.obolibrary.org/obo/WBls_0000106>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000024> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000003>))
 
@@ -1202,8 +1204,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000027> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000027> "WBls:0000027"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000027> "L2 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000027> <http://purl.obolibrary.org/obo/WBls_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000027> <http://purl.obolibrary.org/obo/WBls_0000107>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000027> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000024>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000026>))
@@ -1256,7 +1258,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000032> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000032> "WBls:0000032"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000032> "dauer larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000032> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000032> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000027>))
 
@@ -1287,8 +1289,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000035> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000035> "WBls:0000035"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000035> "L3 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000035> <http://purl.obolibrary.org/obo/WBls_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000035> <http://purl.obolibrary.org/obo/WBls_0000108>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000035> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000027>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000029>))
@@ -1321,8 +1323,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000038> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000038> "WBls:0000038"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000038> "L4 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000038> <http://purl.obolibrary.org/obo/WBls_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000038> <http://purl.obolibrary.org/obo/WBls_0000109>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000038> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000035>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000032>))
@@ -1355,8 +1357,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000041> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000041> "WBls:0000041"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000041> "adult Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000041> <http://purl.obolibrary.org/obo/WBls_0000002>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000041> <http://purl.obolibrary.org/obo/WBls_0000104>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000041> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000022>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000023>))
@@ -1410,7 +1412,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000046> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000046> "WBls:0000046"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000046> "L2d larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000046> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000046> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000047> (L2-L3 ecdysis Ce)
@@ -1472,7 +1474,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000052> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000052> "WBls:0000052"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000052> "post dauer stage Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000052> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000052> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000053> (L2d-L3 molt Ce)
@@ -1530,7 +1532,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000058> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000058> "WBls:0000058"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000058> "pre-reproductive stage adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000058> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000058> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000059> (parasitic nematode stage)
@@ -1550,7 +1552,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000060> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000060> "WBls:0000060"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000060> "reproductive stage adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000060> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000060> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000061> (oocyte-laying stage adult hermaphrodite Ce)
@@ -1560,7 +1562,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000061> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000061> "WBls:0000061"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000061> "oocyte-laying stage adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000061> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000061> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000062> (post-reproductive stage adult hermaphrodite Ce)
@@ -1570,7 +1572,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000062> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000062> "WBls:0000062"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000062> "post-reproductive stage adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000062> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000062> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000063> (newly molted young adult hermaphrodite Ce)
@@ -1580,7 +1582,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000063> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000063> "WBls:0000063"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000063> "newly molted young adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000063> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000063> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000064> (1-day post-L4 adult hermaphrodite Ce)
@@ -1590,7 +1592,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000064> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000064> "WBls:0000064"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000064> "1-day post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000064> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000064> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000065> (2-days post-L4 adult hermaphrodite Ce)
@@ -1600,7 +1602,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000065> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000065> "WBls:0000065"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000065> "2-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000065> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000065> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000064>))
 
@@ -1611,7 +1613,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000066> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000066> "WBls:0000066"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000066> "3-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000066> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000066> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000065>))
 
@@ -1622,7 +1624,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000067> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000067> "WBls:0000067"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000067> "4-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000067> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000067> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000066>))
 
@@ -1633,7 +1635,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000068> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000068> "WBls:0000068"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000068> "5-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000068> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000068> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000067>))
 
@@ -1644,7 +1646,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000069> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000069> "WBls:0000069"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000069> "4-7 days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000069> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000069> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000068>))
 
@@ -1655,7 +1657,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000070> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000070> "WBls:0000070"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000070> "7-10 days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000070> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000070> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000069>))
 
@@ -1698,7 +1700,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000074> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000074> "WBls:0000074"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000074> "11-15 days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000074> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000074> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000674>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000070>))
@@ -1706,7 +1708,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000074> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/WBls_0000075> (worm life stage)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000075> "danielaraciti"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000075> "2012-05-30T09:04:28Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000075> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000075> "WBls:0000075"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000075> "worm life stage"^^xsd:string)
@@ -2174,7 +2175,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000111> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000111> "WBls:0000111"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000111> "16-18 days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000111> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000111> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000675>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000111> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000074>))
@@ -9421,8 +9422,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000669> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000669> "WBls:0000669"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000669> "unfertilized egg Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000669> <http://purl.obolibrary.org/obo/WBls_0000002>)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000669> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000002>))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000669> <http://purl.obolibrary.org/obo/WBls_0000825>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000670> (6-days post-L4 adult hermaphrodite Ce)
 
@@ -9431,7 +9431,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000670> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000670> "WBls:0000670"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000670> "6-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000670> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000670> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000670> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000670> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000068>))
 
@@ -9442,7 +9442,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000671> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000671> "WBls:0000671"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000671> "7-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000671> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000671> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000670>))
 
@@ -9453,7 +9453,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000672> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000672> "WBls:0000672"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000672> "8-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000672> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000672> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000672> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000672> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000671>))
 
@@ -9464,7 +9464,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000673> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000673> "WBls:0000673"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000673> "9-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000673> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000673> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000673> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000673> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000672>))
 
@@ -9475,7 +9475,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000674> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000674> "WBls:0000674"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000674> "10-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000674> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000674> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000674> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000673>))
 
@@ -9486,7 +9486,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000675> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000675> "WBls:0000675"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000675> "15-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000675> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000675> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000675> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000800>))
 
@@ -9497,7 +9497,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000676> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000676> "WBls:0000676"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000676> "20-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000676> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000676> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000676> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000676> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000111>))
 
@@ -9587,7 +9587,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000683> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000683> "WBls:0000683"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000683> "L4.0 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000683> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000683> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000037>))
 
@@ -9600,7 +9600,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000684> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000684> "WBls:0000684"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000684> "L4.1 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000684> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000684> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000684> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000684> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000683>))
 
@@ -9613,7 +9613,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000685> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000685> "WBls:0000685"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000685> "L4.2 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000685> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000685> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000685> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000685> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000684>))
 
@@ -9626,7 +9626,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000686> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000686> "WBls:0000686"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000686> "L4.3 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000686> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000686> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000686> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000686> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000685>))
 
@@ -9639,7 +9639,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000687> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000687> "WBls:0000687"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000687> "L4.4 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000687> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000687> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000687> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000687> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000686>))
 
@@ -9652,7 +9652,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000688> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000688> "WBls:0000688"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000688> "L4.5 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000688> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000688> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000687>))
 
@@ -9665,7 +9665,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000689> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000689> "WBls:0000689"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000689> "L4.6 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000689> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000689> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000689> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000689> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000688>))
 
@@ -9678,7 +9678,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000690> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000690> "WBls:0000690"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000690> "L4.7 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000690> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000690> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000690> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000690> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000689>))
 
@@ -9691,7 +9691,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000691> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000691> "WBls:0000691"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000691> "L4.8 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000691> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000691> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000691> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000691> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000690>))
 
@@ -9704,7 +9704,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000692> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000692> "WBls:0000692"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000692> "L4.9 larva Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000692> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000692> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000692> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000692> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000691>))
 
@@ -10343,7 +10343,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000797> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000797> "WBls:0000797"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000797> "11-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000797> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000797> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000797> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000797> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000674>))
 
@@ -10356,7 +10356,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000798> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000798> "WBls:0000798"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000798> "12-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000798> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000798> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000798> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000798> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000797>))
 
@@ -10369,7 +10369,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000799> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000799> "WBls:0000799"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000799> "13-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000799> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000799> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000799> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000799> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000798>))
 
@@ -10382,7 +10382,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000800> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000800> "WBls:0000800"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000800> "14-days post-L4 adult hermaphrodite Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000800> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000800> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000800> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000800> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/WBls_0000799>))
 
@@ -10394,7 +10394,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000801> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000801> "WBls:0000801"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000801> "newly hatched L1 larval stage Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000801> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000801> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000801> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000024>))
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000801> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000062> <http://purl.obolibrary.org/obo/WBls_0000021>))
 
@@ -10407,7 +10407,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000802> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000802> "WBls:0000802"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000802> "L1 arrest Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000802> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000802> <http://purl.obolibrary.org/obo/WBls_0000825>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000802> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000801>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000803> (C. elegans life stage occurring during embryogenesis)
@@ -10416,7 +10416,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000803> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000803> "WBls:0000803"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000803> "C. elegans life stage occurring during embryogenesis"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000803> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000002> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000003>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000803> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000825> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000003>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000803> <http://purl.obolibrary.org/obo/WBls_0000825>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000804> (C. elegans life stage occurring post embryogenesis)
 
@@ -10424,7 +10425,8 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000804> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000804> "WBls:0000804"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000804> "C. elegans life stage occurring post embryogenesis"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000804> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000002> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000022>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000804> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000825> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000022>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000804> <http://purl.obolibrary.org/obo/WBls_0000825>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000805> (C. elegans life stage occurring during elongating embryo)
 
@@ -10568,7 +10570,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000822> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000822> "WBls:0000822"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000822> "C. elegans life stage by minutes post first cleavage"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000822> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000822> <http://purl.obolibrary.org/obo/WBls_0000825>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000823> (C. elegans life stage by number of cells)
 
@@ -10576,7 +10578,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000823> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000823> "WBls:0000823"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000823> "C. elegans life stage by number of cells"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000823> <http://purl.obolibrary.org/obo/WBls_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000823> <http://purl.obolibrary.org/obo/WBls_0000825>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000824> (C. elegans life stage occurring during larval molt)
 
@@ -10585,6 +10587,21 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000824> "WBls:0000824"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000824> "C. elegans life stage occurring during larval molt"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000824> <http://purl.obolibrary.org/obo/WBls_0000817>)
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000825> (C. elegans life stage)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000825> "A life stage of the nematode Caenorhabditis elegans"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000825> "worm_development"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000825> "WBls:0000825"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000825> "C. elegans life stage"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000825> <http://purl.obolibrary.org/obo/WBls_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000826> (set of worm life stages)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000826> "A set of life stages of the nematode Caenorhabditis elegans"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000826> "worm_development"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000826> "WBls:0000826"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000826> "set of worm life stages"@en)
 
 
 )
