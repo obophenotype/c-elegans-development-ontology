@@ -925,7 +925,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000002> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000002> "WBls:0000002"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000002> "all stages Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000002> <http://purl.obolibrary.org/obo/WBls_0000826>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000002> <http://purl.obolibrary.org/obo/WBls_0000825>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000003> (embryo Ce)
 
@@ -10596,12 +10596,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000825> "C. elegans life stage"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000825> <http://purl.obolibrary.org/obo/WBls_0000001>)
 
-# Class: <http://purl.obolibrary.org/obo/WBls_0000826> (set of worm life stages)
+# Class: <http://purl.obolibrary.org/obo/WBls_0000826> (obsolete set of worm life stages)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000826> "A set of life stages of the nematode Caenorhabditis elegans"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000826> "OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000826> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000826> "WBls:0000826"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000826> "set of worm life stages"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000826> "obsolete set of worm life stages"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/WBls_0000826> "true"^^xsd:boolean)
 
 
 )
