@@ -782,6 +782,8 @@ http://purl.obolibrary.org/obo/WBls_0000821
 http://purl.obolibrary.org/obo/WBls_0000822
 http://purl.obolibrary.org/obo/WBls_0000823
 http://purl.obolibrary.org/obo/WBls_0000824
+http://purl.obolibrary.org/obo/WBls_0000825
+http://purl.obolibrary.org/obo/WBls_0000826
 http://purl.obolibrary.org/obo/wbls.owl
 http://purl.obolibrary.org/obo/wbls/imports/ro_import.owl
 http://purl.org/dc/elements/1.1/description

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2019-09-20/wbls-base.owl
+data-version: wbls/releases/2019-11-19/wbls-base.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -24,15 +24,15 @@ id: WBls:0000002
 name: all stages Ce
 def: "All C. elegans development stages, including embryo, larva and adult stage." [WB:wjc]
 synonym: "all stages" BROAD []
-is_a: WBls:0000001 ! free-living nematode stage
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000003
 name: embryo Ce
 def: "The whole period of embryogenesis, from the formation of an egg till its hatch." [WB:wjc]
 synonym: "embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
 is_a: WBls:0000102 ! nematode embryo
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000004
@@ -40,7 +40,7 @@ name: proliferating embryo Ce
 def: "0-350min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 560 cells. From start of first cleavage till cleavage is over." [WB:wjc]
 synonym: "early embryo" EXACT []
 synonym: "proliferating embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000003 ! embryo Ce
 
 [Term]
@@ -48,7 +48,7 @@ id: WBls:0000005
 name: blastula embryo Ce
 def: "0-100min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 28 cells. From first cleavage till the start of gastrulation." [WB:wjc]
 synonym: "blastula embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000004 ! proliferating embryo Ce
 
 [Term]
@@ -92,7 +92,7 @@ id: WBls:0000010
 name: gastrulating embryo Ce
 def: "100-290min after first cleavage at 20 Centigrade. Proliferate from 28 cells to 421  cells. Referring to the whole period of gastrulation." [WB:wjc]
 synonym: "gastrulating embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000004 ! proliferating embryo Ce
 relationship: starts_at_end_of WBls:0000005 ! blastula embryo Ce
 
@@ -117,9 +117,9 @@ relationship: preceded_by WBls:0000088 ! 86-cell embryo Ce
 [Term]
 id: WBls:0000013
 name: enclosing embryo Ce
-def: "290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastulation and is enclosing." [WB:wjc]
+def: "290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing." [WB:wjc]
 synonym: "enclosing embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000014 ! late cleavage stage embryo Ce
 relationship: preceded_by WBls:0000014 ! late cleavage stage embryo Ce
 relationship: starts_at_end_of WBls:0000010 ! gastrulating embryo Ce
@@ -129,7 +129,7 @@ id: WBls:0000014
 name: late cleavage stage embryo Ce
 def: "210-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage before the fast cleavage of cells finishes." [WB:wjc]
 synonym: "late cleavage stage embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000004 ! proliferating embryo Ce
 relationship: preceded_by WBls:0000010 ! gastrulating embryo Ce
 
@@ -139,7 +139,7 @@ name: elongating embryo Ce
 def: "350-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The stage that embryo starts elongation till elongation is over." [WB:wjc]
 synonym: "elongating embryo" BROAD []
 synonym: "mid embryo" EXACT []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000003 ! embryo Ce
 relationship: preceded_by WBls:0000010 ! gastrulating embryo Ce
 relationship: starts_at_end_of WBls:0000004 ! proliferating embryo Ce
@@ -149,7 +149,7 @@ id: WBls:0000016
 name: bean embryo Ce
 def: "350-390min after first cleavage at 20 Centigrade.  Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. Emrbyo elongation started but have not formed comma shape yet. The shape of embryo looks like a lima bean. A stage right before comma embryo. Also called lima embryo or lima bean stage." [WB:wjc]
 synonym: "bean embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000015 ! elongating embryo Ce
 relationship: starts_at_end_of WBls:0000013 ! enclosing embryo Ce
 relationship: starts_at_end_of WBls:0000014 ! late cleavage stage embryo Ce
@@ -159,7 +159,7 @@ id: WBls:0000017
 name: comma embryo Ce
 def: "390-420min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo looks like a comma. A stage between bean embryo and 1.5-fold embryo." [WB:wjc]
 synonym: "comma embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000015 ! elongating embryo Ce
 relationship: starts_at_end_of WBls:0000016 ! bean embryo Ce
 
@@ -168,7 +168,7 @@ id: WBls:0000018
 name: 1.5-fold embryo Ce
 def: "420-460min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and fold back 50%. A stage between comma embryo and 2-fold embryo." [WB:wjc]
 synonym: "1.5-fold embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000015 ! elongating embryo Ce
 relationship: starts_at_end_of WBls:0000017 ! comma embryo Ce
 
@@ -177,7 +177,7 @@ id: WBls:0000019
 name: 2-fold embryo Ce
 def: "460-520min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and double fold. A stage between 1.5-fold embryo and 3-fold embryo." [WB:wjc]
 synonym: "2-fold embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000015 ! elongating embryo Ce
 relationship: starts_at_end_of WBls:0000018 ! 1.5-fold embryo Ce
 
@@ -186,7 +186,7 @@ id: WBls:0000020
 name: 3-fold embryo Ce
 def: "520-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and tripple fold. A stage between 2-fold embryo and fully-elongated embryo. Also called pretzel embryo or pretzel stage." [WB:wjc]
 synonym: "3-fold embryo" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000015 ! elongating embryo Ce
 relationship: starts_at_end_of WBls:0000019 ! 2-fold embryo Ce
 
@@ -198,7 +198,7 @@ synonym: "fully-elongated embryo" BROAD []
 synonym: "late embryo" EXACT []
 synonym: "morphogenetic stage" EXACT []
 synonym: "pre-hatched embryo" EXACT []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000003 ! embryo Ce
 relationship: starts_at_end_of WBls:0000015 ! elongating embryo Ce
 relationship: starts_at_end_of WBls:0000020 ! 3-fold embryo Ce
@@ -208,7 +208,7 @@ id: WBls:0000022
 name: postembryonic Ce
 def: "The stage after hatch till death." [WB:wjc]
 synonym: "postembryonic" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: starts_at_end_of WBls:0000003 ! embryo Ce
 
 [Term]
@@ -216,8 +216,8 @@ id: WBls:0000023
 name: larva Ce
 def: "From the time after hatch till becomes adult." [WB:wjc]
 synonym: "larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
 is_a: WBls:0000105 ! nematode larval stage
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000022 ! postembryonic Ce
 relationship: starts_at_end_of WBls:0000003 ! embryo Ce
 
@@ -226,8 +226,8 @@ id: WBls:0000024
 name: L1 larva Ce
 def: "The first stage larva. At 25 Centigrade, it ranges 14-25.5 hours after fertilization, 0-11.5 hours after hatch." [WB:wjc]
 synonym: "L1 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
 is_a: WBls:0000106 ! L1 larval stage
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000023 ! larva Ce
 relationship: starts_at_end_of WBls:0000003 ! embryo Ce
 
@@ -253,8 +253,8 @@ id: WBls:0000027
 name: L2 larva Ce
 def: "The second stage larva. At 25 Centigrade, it ranges 25.5-32.5 hours after fertilization, 11.5-18.5 hours after hatch." [WB:wjc]
 synonym: "L2 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
 is_a: WBls:0000107 ! L2 larval stage
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000023 ! larva Ce
 relationship: preceded_by WBls:0000024 ! L1 larva Ce
 relationship: starts_at_end_of WBls:0000026 ! L1-L2 molt Ce
@@ -297,7 +297,7 @@ id: WBls:0000032
 name: dauer larva Ce
 def: "A third stage larva specialized for dispersal and long term survival." [ISBN:0-87969-433-5]
 synonym: "dauer larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000023 ! larva Ce
 relationship: preceded_by WBls:0000027 ! L2 larva Ce
 
@@ -322,8 +322,8 @@ id: WBls:0000035
 name: L3 larva Ce
 def: "The third stage larva. At 25 Centigrade, it ranges 32.5-40 hours after fertilization, 18.5-26 hours after hatch." [WB:wjc]
 synonym: "L3 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
 is_a: WBls:0000108 ! L3 larval stage
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000023 ! larva Ce
 relationship: preceded_by WBls:0000027 ! L2 larva Ce
 relationship: starts_at_end_of WBls:0000029 ! L2-L3 molt Ce
@@ -350,8 +350,8 @@ id: WBls:0000038
 name: L4 larva Ce
 def: "The fourth stage larva. At 25 Centigrade, it ranges 40-49.5 hours after fertilization, 26-35.5 hours after hatch." [WB:wjc]
 synonym: "L4 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
 is_a: WBls:0000109 ! L4 larval stage
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000023 ! larva Ce
 relationship: preceded_by WBls:0000035 ! L3 larva Ce
 relationship: starts_at_end_of WBls:0000032 ! dauer larva Ce
@@ -378,8 +378,8 @@ id: WBls:0000041
 name: adult Ce
 def: "The stage that begins when a C.elegans individual is fully-developed and has reached maturity." [WB:wjc]
 synonym: "adult" BROAD []
-is_a: WBls:0000002 ! all stages Ce
 is_a: WBls:0000104 ! nematode adult
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000022 ! postembryonic Ce
 relationship: preceded_by WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000023 ! larva Ce
@@ -423,7 +423,7 @@ id: WBls:0000046
 name: L2d larva Ce
 def: "A special second stage larva with altered physiology and developmental potential that leads to formation of dauer larva. At 25 Centigrade, it ranges 25.5-32.5 hours after fertilization, 11.5-18.5 hours after hatch." [ISBN:0-87969-433-5]
 synonym: "L2d larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000023 ! larva Ce
 
 [Term]
@@ -473,7 +473,7 @@ id: WBls:0000052
 name: post dauer stage Ce
 def: "The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet." [WB:wjc]
 synonym: "post dauer stage" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000023 ! larva Ce
 
 [Term]
@@ -519,7 +519,7 @@ id: WBls:0000058
 name: pre-reproductive stage adult hermaphrodite Ce
 def: "Very young adult hermaphrodites that do not have eggs in the uterus yet. At 20 Centigrade: 0 - 13 hours after L4-adult molt. 3 days after first cleaveage." [WB:wjc]
 synonym: "pre-reproductive stage adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 
 [Term]
@@ -535,7 +535,7 @@ id: WBls:0000060
 name: reproductive stage adult hermaphrodite Ce
 def: "Adult hermaphrodites continuously laying fertilized eggs. Hermaphrodite in egg laying stages--usually up to 4/5 days after L4-adult molt at Centigrade. From the first fertilized egg is laid, till all sperms are used. At 20 Centigrade: 13 hours after L4-adult molt until about 5.4 days after the L4-adult molt. 3-8.4 days after first cleavage." [WB:wjc]
 synonym: "reproductive stage adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 
 [Term]
@@ -543,7 +543,7 @@ id: WBls:0000061
 name: oocyte-laying stage adult hermaphrodite Ce
 def: "When egg-laying is still going on but intermittent and during which a significant number of oocytes are laid. Included in reproductive stage adult hermaphrodite." [WB:wjc]
 synonym: "oocyte-laying stage adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 
 [Term]
@@ -551,7 +551,7 @@ id: WBls:0000062
 name: post-reproductive stage adult hermaphrodite Ce
 def: "Adult hermaphrodites that contain no more sperm, thus stop egg-laying, but still alive. At 20 Centigrade: 5.4 days after L4-adult molt until the death. 8.4 - 13.2 (average wild type life span) days after first cleavage." [WB:wjc]
 synonym: "post-reproductive stage adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 
 [Term]
@@ -559,7 +559,7 @@ id: WBls:0000063
 name: newly molted young adult hermaphrodite Ce
 def: "At 20 Centigrade: 0-24 hours after L4-adult molt." [WB:wjc]
 synonym: "newly molted young adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 
 [Term]
@@ -567,7 +567,7 @@ id: WBls:0000064
 name: 1-day post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 24-48 hours after L4-adult molt. 4-5 days after first cleavage." [WB:wjc]
 synonym: "1-day post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 
 [Term]
@@ -575,7 +575,7 @@ id: WBls:0000065
 name: 2-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 48-72 hours after L4-adult molt. 5-6 days after first cleavage." [WB:wjc]
 synonym: "2-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000064 ! 1-day post-L4 adult hermaphrodite Ce
 
@@ -584,7 +584,7 @@ id: WBls:0000066
 name: 3-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 72-96 hours after L4-adult molt. 6-7 days after first cleavage." [WB:wjc]
 synonym: "3-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000065 ! 2-days post-L4 adult hermaphrodite Ce
 
@@ -593,7 +593,7 @@ id: WBls:0000067
 name: 4-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 96-120 hours after L4-adult molt. 7-8 days after first cleavage." [WB:wjc]
 synonym: "4-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000066 ! 3-days post-L4 adult hermaphrodite Ce
 
@@ -602,7 +602,7 @@ id: WBls:0000068
 name: 5-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 5-6 days after L4-adult molt. 8-9 days after first cleavage." [WB:wjc]
 synonym: "5-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000067 ! 4-days post-L4 adult hermaphrodite Ce
 
@@ -611,7 +611,7 @@ id: WBls:0000069
 name: 4-7 days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 4-7 days after L4-adult molt. 7-10 days after first cleavage." [WB:wjc]
 synonym: "4-7 days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000068 ! 5-days post-L4 adult hermaphrodite Ce
 
@@ -620,7 +620,7 @@ id: WBls:0000070
 name: 7-10 days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 7-10 days after L4-adult molt. 10-13 days after first cleavage." [WB:wjc]
 synonym: "7-10 days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000069 ! 4-7 days post-L4 adult hermaphrodite Ce
 
@@ -653,7 +653,7 @@ is_a: WBls:0000038 ! L4 larva Ce
 id: WBls:0000074
 name: 11-15 days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 11-15 days after L4-adult molt. 14-18 days after first cleavage." [WB:dr]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: preceded_by WBls:0000674 ! 10-days post-L4 adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000070 ! 7-10 days post-L4 adult hermaphrodite Ce
@@ -664,7 +664,6 @@ creation_date: 2012-05-22T14:35:04Z
 id: WBls:0000075
 name: worm life stage
 created_by: danielaraciti
-creation_date: 2012-05-30T09:04:28Z
 
 [Term]
 id: WBls:0000076
@@ -1052,7 +1051,7 @@ id: WBls:0000111
 name: 16-18 days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 16-18 days after L4-adult molt. 18-21 days after first cleavage." [WB:dr]
 synonym: "16-18 days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: preceded_by WBls:0000675 ! 15-days post-L4 adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000074 ! 11-15 days post-L4 adult hermaphrodite Ce
@@ -7178,8 +7177,7 @@ creation_date: 2014-11-25T09:52:54Z
 id: WBls:0000669
 name: unfertilized egg Ce
 synonym: "unfertilized egg" BROAD []
-is_a: WBls:0000002 ! all stages Ce
-relationship: part_of WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 created_by: danielaraciti
 creation_date: 2014-11-26T11:49:22Z
 
@@ -7188,7 +7186,7 @@ id: WBls:0000670
 name: 6-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 6-7 days after L4-adult molt. 9-10 days after first cleavage." [WB:dr]
 synonym: "6-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000068 ! 5-days post-L4 adult hermaphrodite Ce
 
@@ -7197,7 +7195,7 @@ id: WBls:0000671
 name: 7-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 7-8 days after L4-adult molt. 10-11 days after first cleavage." [WB:dr]
 synonym: "7-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000670 ! 6-days post-L4 adult hermaphrodite Ce
 
@@ -7206,7 +7204,7 @@ id: WBls:0000672
 name: 8-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 8-9 days after L4-adult molt. 11-12 days after first cleavage." [WB:dr]
 synonym: "8-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000671 ! 7-days post-L4 adult hermaphrodite Ce
 
@@ -7215,7 +7213,7 @@ id: WBls:0000673
 name: 9-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 9-10 days after L4-adult molt. 12-13 days after first cleavage." [WB:dr]
 synonym: "9-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000672 ! 8-days post-L4 adult hermaphrodite Ce
 
@@ -7224,7 +7222,7 @@ id: WBls:0000674
 name: 10-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 10-11 days after L4-adult molt. 13-14 days after first cleavage." [WB:dr]
 synonym: "10-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000673 ! 9-days post-L4 adult hermaphrodite Ce
 
@@ -7233,7 +7231,7 @@ id: WBls:0000675
 name: 15-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 15-16 days after L4-adult molt. 18-19 days after first cleavage." [WB:dr]
 synonym: "15-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: preceded_by WBls:0000800 ! 14-days post-L4 adult hermaphrodite Ce
 
@@ -7242,7 +7240,7 @@ id: WBls:0000676
 name: 20-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 20-21 days after L4-adult molt. 23-24 days after first cleavage." [WB:dr]
 synonym: "20-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: preceded_by WBls:0000111 ! 16-18 days post-L4 adult hermaphrodite Ce
 
@@ -7316,7 +7314,7 @@ id: WBls:0000683
 name: L4.0 larva Ce
 def: "The first sub-stage of the L4 larva. All vulval cells are migrating toward the center of the future vulva. vulA, vulB, and vulE have divided, but vulC and vulF have not. At 20 Centigrade: 34.3 hours after hatching, 0.3 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.0 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000037 ! L3-L4 molt Ce
 created_by: danielaraciti
@@ -7327,7 +7325,7 @@ id: WBls:0000684
 name: L4.1 larva Ce
 def: "The second sub-stage of the L4 larva. The inner cells of the vulva have finished migrating and have formed toroids, but have not fused. vulC and vulF have divided and a narrow lumen has formed. At 20 Centigrade: 35.1 hours after hatching, 1.1 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.1 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000683 ! L4.0 larva Ce
 created_by: danielaraciti
@@ -7338,7 +7336,7 @@ id: WBls:0000685
 name: L4.2 larva Ce
 def: "The third sub-stage of the L4 larva. All vulval cells complete migration. vulA, vulC, and vulD undergo cell fusion. The vulval lumen has widened and a prominent kink has formed between vulC and vulD. The uterine lumen has not started to form. At 20 Centigrade: 36.8 hours after hatching, 2.8 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.2 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000684 ! L4.1 larva Ce
 created_by: danielaraciti
@@ -7349,7 +7347,7 @@ id: WBls:0000686
 name: L4.3 larva Ce
 def: "The fourth sub-stage of the L4 larva. vulFs have separated and the apex of the lumen is flat and capped by the anchor cell. The uterine lumen starts to form. At 20 Centigrade: 38.1 hours after hatching, 4.1 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.3 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000685 ! L4.2 larva Ce
 created_by: danielaraciti
@@ -7360,7 +7358,7 @@ id: WBls:0000687
 name: L4.4 larva Ce
 def: "The fifth sub-stage of the L4 larva. utse is visible as a thin layer separating the vulval and uterine lumens. 'Fingers' are formed at the sides of the vulva next to vulB1 and vulB2. The uterine lumen is fully distended. At 20 Centigrade: 39.0 hours after hatching, 5.0 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.4 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000686 ! L4.3 larva Ce
 created_by: danielaraciti
@@ -7371,7 +7369,7 @@ id: WBls:0000688
 name: L4.5 larva Ce
 def: "The sixth sub-stage of the L4 larva. The side of the vulval lumen between vulC and vulD forms a smooth curve. At 20 Centigrade: 40.4 hours after hatching, 6.4 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.5 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000687 ! L4.4 larva Ce
 created_by: danielaraciti
@@ -7382,7 +7380,7 @@ id: WBls:0000689
 name: L4.6 larva Ce
 def: "The seventh sub-stage of the L4 larva. 'Fingers' between vulB2 and vulC are pointed ventrally. At 20 Centigrade: 41.5 hours after hatching, 7.5 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.6 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000688 ! L4.5 larva Ce
 created_by: danielaraciti
@@ -7393,7 +7391,7 @@ id: WBls:0000690
 name: L4.7 larva Ce
 def: "The eighth sub-stage of the L4 larva. vulFs have migrated closer such that the lumen is narrowed in the dorsal section. The approximate cutoff is when the width of the channel is less than the width of the vulD nucleus. At 20 Centigrade: 42.3 hours after hatching, 8.3 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.7 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000689 ! L4.6 larva Ce
 created_by: danielaraciti
@@ -7404,7 +7402,7 @@ id: WBls:0000691
 name: L4.8 larva Ce
 def: "The ninth sub-stage of the L4 larva. The vulval lumen is partially collapsed. At 20 Centigrade: 42.5 hours after hatching, 8.5 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.8 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000690 ! L4.7 larva Ce
 created_by: danielaraciti
@@ -7415,7 +7413,7 @@ id: WBls:0000692
 name: L4.9 larva Ce
 def: "The tenth sub-stage of the L4 larva. The vulval lumen is completely collapsed. At 20 Centigrade: 42.8 hours after hatching, 8.8 hours from the L3-to-L4 molt." [WB:dr, WB:WBPaper00046933]
 synonym: "L4.9 larva" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000038 ! L4 larva Ce
 relationship: starts_at_end_of WBls:0000691 ! L4.8 larva Ce
 created_by: danielaraciti
@@ -7944,7 +7942,7 @@ id: WBls:0000797
 name: 11-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 11-12 days after L4-adult molt. 14-15 days after first cleavage." [WB:dr]
 synonym: "11-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000674 ! 10-days post-L4 adult hermaphrodite Ce
 created_by: danielaraciti
@@ -7955,7 +7953,7 @@ id: WBls:0000798
 name: 12-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 12-13 days after L4-adult molt. 15-16 days after first cleavage." [WB:dr]
 synonym: "12-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000797 ! 11-days post-L4 adult hermaphrodite Ce
 created_by: danielaraciti
@@ -7966,7 +7964,7 @@ id: WBls:0000799
 name: 13-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 13-14 days after L4-adult molt. 16-17 days after first cleavage." [WB:dr]
 synonym: "13-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000798 ! 12-days post-L4 adult hermaphrodite Ce
 created_by: danielaraciti
@@ -7977,7 +7975,7 @@ id: WBls:0000800
 name: 14-days post-L4 adult hermaphrodite Ce
 def: "At 20 Centigrade: 14-15 days after L4-adult molt. 17-18 days after first cleavage." [WB:dr]
 synonym: "14-days post-L4 adult hermaphrodite" BROAD []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000057 ! adult hermaphrodite Ce
 relationship: starts_at_end_of WBls:0000799 ! 13-days post-L4 adult hermaphrodite Ce
 created_by: danielaraciti
@@ -7987,7 +7985,7 @@ creation_date: 2016-10-19T10:14:40Z
 id: WBls:0000801
 name: newly hatched L1 larval stage Ce
 def: "The stage that begins right after hatching and before development proceeds after feeding. A newly hatched L1 larva contains 558 cells." [PMC:4492366, WA:Wormatlas, WB:dr]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000024 ! L1 larva Ce
 relationship: preceded_by WBls:0000021 ! fully-elongated embryo Ce
 created_by: danielaraciti
@@ -7998,7 +7996,7 @@ id: WBls:0000802
 name: L1 arrest Ce
 def: "The stage in which first stage larvae (L1) that hatch in the absence of food enter a state of developmental arrest." [PMC:3697962, WB:dr]
 synonym: "L1 diapause" EXACT []
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 relationship: part_of WBls:0000801 ! newly hatched L1 larval stage Ce
 created_by: danielaraciti
 creation_date: 2017-11-14T10:15:40Z
@@ -8007,11 +8005,13 @@ creation_date: 2017-11-14T10:15:40Z
 id: WBls:0000803
 name: C. elegans life stage occurring during embryogenesis
 def: "A C. elegans life stage that occurs during embryogenesis" [WB:WBPerson2987]
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000804
 name: C. elegans life stage occurring post embryogenesis
 def: "A C. elegans life stage that occurs after embryogenesis" [WB:WBPerson2987]
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000805
@@ -8102,19 +8102,31 @@ def: "A C. elegans life stage that occurs during the L4 larval life stage" [WB:W
 id: WBls:0000822
 name: C. elegans life stage by minutes post first cleavage
 def: "A C. elegans life stage classified by the number of minutes post first embryonic cleavage." [WB:WBPaper00000653, WB:WBPerson2987]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000823
 name: C. elegans life stage by number of cells
 def: "C. elegans life stage classified by the number of cells in the organism." [WB:WBPerson2987]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000824
 name: C. elegans life stage occurring during larval molt
 def: "C. elegans life stage that occurs during a larval molt" [WB:WBPerson2987]
 is_a: WBls:0000817 ! C. elegans life stage occurring during larval stage
+
+[Term]
+id: WBls:0000825
+name: C. elegans life stage
+def: "A life stage of the nematode Caenorhabditis elegans" [WB:WBPerson2987]
+is_a: WBls:0000001 ! free-living nematode stage
+
+[Term]
+id: WBls:0000826
+name: obsolete set of worm life stages
+def: "OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans" [WB:WBPerson2987]
+is_obsolete: true
 
 [Typedef]
 id: part_of
