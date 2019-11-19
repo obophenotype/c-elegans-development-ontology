@@ -37,7 +37,7 @@ INFO	lowercase_definition	WBls:0000009	IAO:0000115	100-105 min after first cleav
 INFO	lowercase_definition	WBls:0000010	IAO:0000115	100-290min after first cleavage at 20 Centigrade. Proliferate from 28 cells to 421  cells. Referring to the whole period of gastrulation.	
 INFO	lowercase_definition	WBls:0000011	IAO:0000115	120-135 min after first cleavage at 20 Centigrade. Contains 51 cells.	
 INFO	lowercase_definition	WBls:0000012	IAO:0000115	145-150 min after first cleavage at 20 Centigrade. Contains 88 cells.	
-INFO	lowercase_definition	WBls:0000013	IAO:0000115	290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastulation and is enclosing.	
+INFO	lowercase_definition	WBls:0000013	IAO:0000115	290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing.	
 INFO	lowercase_definition	WBls:0000014	IAO:0000115	210-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage before the fast cleavage of cells finishes.	
 INFO	lowercase_definition	WBls:0000015	IAO:0000115	350-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The stage that embryo starts elongation till elongation is over.	
 INFO	lowercase_definition	WBls:0000016	IAO:0000115	350-390min after first cleavage at 20 Centigrade.  Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. Emrbyo elongation started but have not formed comma shape yet. The shape of embryo looks like a lima bean. A stage right before comma embryo. Also called lima embryo or lima bean stage.	
@@ -50,8 +50,6 @@ INFO	lowercase_definition	WBls:0000071	IAO:0000115	~50 min after first cleavage 
 INFO	lowercase_definition	WBls:0000072	IAO:0000115	~55 min after first cleavage at 20 Centigrade.  Contains 12 cells.	
 INFO	lowercase_definition	WBls:0000090	IAO:0000115	155-165 min after first cleavage at 20 Centigrade. Contains 96 cells.	
 INFO	missing_superclass	WBls:0000075	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000803	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000804	rdfs:subClassOf		
 INFO	missing_superclass	WBls:0000805	rdfs:subClassOf		
 INFO	missing_superclass	WBls:0000806	rdfs:subClassOf		
 INFO	missing_superclass	WBls:0000807	rdfs:subClassOf		

@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wbls/wbls-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2019-09-20/wbls-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2019-11-19/wbls-simple.owl"/>
         <dc:description>Ontology about the development and life stages of the C. elegans</dc:description>
         <dc:title>C. elegans Development Ontology</dc:title>
         <terms:license>CC-BY</terms:license>
@@ -297,6 +297,10 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
         </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002131"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        </owl:propertyChainAxiom>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
         <obo:IAO_0000424>http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)</obo:IAO_0000424>
@@ -341,7 +345,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/WBls_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All C. elegans development stages, including embryo, larva and adult stage.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all stages</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
@@ -674,7 +678,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBls_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastulation and is enclosing.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enclosing embryo</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000013</oboInOwl:id>
@@ -683,7 +687,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000013"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastulation and is enclosing.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:wjc</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2454,7 +2458,6 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000075">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">danielaraciti</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-05-30T09:04:28Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000075</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm life stage</rdfs:label>
@@ -22929,13 +22932,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/WBls_0000669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000669">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">danielaraciti</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-11-26T11:49:22Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unfertilized egg</oboInOwl:hasBroadSynonym>
@@ -25220,7 +25217,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/WBls_0000803 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000803">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during embryogenesis</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000803</oboInOwl:id>
@@ -25238,7 +25235,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/WBls_0000804 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000804">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs after embryogenesis</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000804</oboInOwl:id>
@@ -25562,7 +25559,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/WBls_0000822 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000822">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage classified by the number of minutes post first embryonic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000822</oboInOwl:id>
@@ -25581,7 +25578,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <!-- http://purl.obolibrary.org/obo/WBls_0000823 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000823">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C. elegans life stage classified by the number of cells in the organism.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000823</oboInOwl:id>
@@ -25609,6 +25606,43 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000824"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C. elegans life stage that occurs during a larval molt</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBls_0000825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000825">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A life stage of the nematode Caenorhabditis elegans</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000825</oboInOwl:id>
+        <rdfs:label xml:lang="en">C. elegans life stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A life stage of the nematode Caenorhabditis elegans</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBls_0000826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000826">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000826</oboInOwl:id>
+        <rdfs:label xml:lang="en">obsolete set of worm life stages</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000826"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>

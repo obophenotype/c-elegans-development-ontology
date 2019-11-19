@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2019-09-20/wbls-full.owl
+data-version: wbls/releases/2019-11-19/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -47,6 +47,19 @@ is_a: BFO:0000004 ! independent continuant
 id: CARO:0000000
 name: anatomical entity
 is_a: CARO:0030000 ! biological entity
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
+
+[Term]
+id: CARO:0000003
+name: connected anatomical structure
+is_a: CARO:0000006 ! material anatomical entity
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
+
+[Term]
+id: CARO:0000006
+name: material anatomical entity
+is_a: BFO:0000040 ! material entity
+is_a: CARO:0000000 ! anatomical entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
 
 [Term]
@@ -122,7 +135,7 @@ id: WBls:0000002
 name: all stages Ce
 def: "All C. elegans development stages, including embryo, larva and adult stage." [WB:wjc]
 synonym: "all stages" BROAD []
-is_a: WBls:0000001 ! free-living nematode stage
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000003
@@ -228,7 +241,7 @@ relationship: preceded_by WBls:0000088 ! 86-cell embryo Ce
 [Term]
 id: WBls:0000013
 name: enclosing embryo Ce
-def: "290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastulation and is enclosing." [WB:wjc]
+def: "290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing." [WB:wjc]
 synonym: "enclosing embryo" BROAD []
 is_a: BFO:0000003 ! occurrent
 is_a: WBls:0000815 ! C. elegans life stage occurring during enclosing embryo
@@ -831,7 +844,6 @@ creation_date: 2012-05-22T14:35:04Z
 id: WBls:0000075
 name: worm life stage
 created_by: danielaraciti
-creation_date: 2012-05-30T09:04:28Z
 
 [Term]
 id: WBls:0000076
@@ -8473,8 +8485,7 @@ creation_date: 2014-11-25T09:52:54Z
 id: WBls:0000669
 name: unfertilized egg Ce
 synonym: "unfertilized egg" BROAD []
-is_a: WBls:0000002 ! all stages Ce
-relationship: part_of WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 created_by: danielaraciti
 creation_date: 2014-11-26T11:49:22Z
 
@@ -9358,13 +9369,13 @@ creation_date: 2017-11-14T10:15:40Z
 id: WBls:0000803
 name: C. elegans life stage occurring during embryogenesis
 def: "A C. elegans life stage that occurs during embryogenesis" [WB:WBPerson2987]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000804
 name: C. elegans life stage occurring post embryogenesis
 def: "A C. elegans life stage that occurs after embryogenesis" [WB:WBPerson2987]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000805
@@ -9472,19 +9483,31 @@ is_a: WBls:0000817 ! C. elegans life stage occurring during larval stage
 id: WBls:0000822
 name: C. elegans life stage by minutes post first cleavage
 def: "A C. elegans life stage classified by the number of minutes post first embryonic cleavage." [WB:WBPaper00000653, WB:WBPerson2987]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000823
 name: C. elegans life stage by number of cells
 def: "C. elegans life stage classified by the number of cells in the organism." [WB:WBPerson2987]
-is_a: WBls:0000002 ! all stages Ce
+is_a: WBls:0000825 ! C. elegans life stage
 
 [Term]
 id: WBls:0000824
 name: C. elegans life stage occurring during larval molt
 def: "C. elegans life stage that occurs during a larval molt" [WB:WBPerson2987]
 is_a: WBls:0000817 ! C. elegans life stage occurring during larval stage
+
+[Term]
+id: WBls:0000825
+name: C. elegans life stage
+def: "A life stage of the nematode Caenorhabditis elegans" [WB:WBPerson2987]
+is_a: WBls:0000001 ! free-living nematode stage
+
+[Term]
+id: WBls:0000826
+name: obsolete set of worm life stages
+def: "OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans" [WB:WBPerson2987]
+is_obsolete: true
 
 [Typedef]
 id: BFO:0000051
@@ -9691,7 +9714,29 @@ holds_over_chain: BFO:0000051 part_of {http://purl.obolibrary.org/obo/RO_0002582
 holds_over_chain: BFO:0000051 RO:0002131
 holds_over_chain: part_of part_of
 is_a: RO:0002323 ! mereotopologically related to
+transitive_over: part_of ! part_of
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: RO:0002170
+name: connected to
+def: "a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b" []
+property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/wiki/Connectivity-Design-Pattern xsd:anyURI
+property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/wiki/Modeling-articulations-Design-Pattern xsd:anyURI
+property_value: IAO:0000112 "a 'toe distal phalanx bone' that is connected to a 'toe medial phalanx bone' (an interphalangeal joint *connects* these two bones)." xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002177
+name: attached to part of
+def: "a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b." []
+property_value: IAO:0000589 "attached to part of (anatomical structure to anatomical structure)" xsd:string
+domain: CARO:0000003 ! connected anatomical structure
+range: CARO:0000003 ! connected anatomical structure
+holds_over_chain: RO:0002371 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002323 ! mereotopologically related to
+is_a: RO:0002567 ! biomechanically related to
 
 [Typedef]
 id: RO:0002180
@@ -9838,7 +9883,7 @@ id: RO:0002222
 name: temporally related to
 comment: A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.
 subset: ro-eco
-property_value: http://purl.org/dc/elements/1.1/source https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1 xsd:anyURI
+property_value: http://purl.org/dc/terms/source https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1 xsd:anyURI
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_algebra
@@ -9928,7 +9973,7 @@ is_a: RO:0002384 ! has developmental potential involving
 id: RO:0002304
 name: causally upstream of, positive effect
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
-property_value: http://purl.org/dc/elements/1.1/creator "cjm" xsd:string
+property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004049 RO:0002411
 is_a: RO:0002411 ! causally upstream of
 is_a: RO:0004047 ! causally upstream of or within, positive effect
@@ -9937,7 +9982,7 @@ is_a: RO:0004047 ! causally upstream of or within, positive effect
 id: RO:0002305
 name: causally upstream of, negative effect
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y
-property_value: http://purl.org/dc/elements/1.1/creator "cjm" xsd:string
+property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004050 RO:0002411
 is_a: RO:0002411 ! causally upstream of
 is_a: RO:0004046 ! causally upstream of or within, negative effect
@@ -10059,6 +10104,17 @@ is_a: RO:0000056 ! participates in
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
+id: RO:0002371
+name: attached to
+def: "a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a" []
+subset: ro-eco
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000589 "attached to (anatomical structure to anatomical structure)" xsd:string
+is_symmetric: true
+is_a: RO:0002170 ! connected to
+is_a: RO:0002177 ! attached to part of
+
+[Typedef]
 id: RO:0002384
 name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
@@ -10072,6 +10128,14 @@ is_a: RO:0002324 ! developmentally related to
 id: RO:0002385
 name: has potential to developmentally contribute to
 def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002386
+name: has potential to developmentally induce
+def: "x has potential to developmentally induce y iff x developmentally induces y or x is capable of developmentally inducing y" []
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: RO:0002384 ! has developmental potential involving
@@ -10138,6 +10202,19 @@ property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: RO:0002575 RO:0002411
 is_a: RO:0002090 ! immediately precedes
+is_a: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002414
+name: transitively provides input for
+def: "transitive form of directly_provides_input_for" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "This is a grouping relation that should probably not be used in annotation. Consider instead the child relation 'directly provides input for' (which may later be relabeled simply to 'provides input for')" xsd:string
+property_value: IAO:0000589 "transitively provides input for (process to process)" xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
 is_a: RO:0002411 ! causally upstream of
 
 [Typedef]
@@ -10443,6 +10520,16 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "causally influences (material entity to material entity)" xsd:string
 is_a: RO:0002506 ! causal relation between material entities
+
+[Typedef]
+id: RO:0002567
+name: biomechanically related to
+def: "A relation that holds between elements of a musculoskeletal system or its analogs." []
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the biomechanical processes." xsd:string
+domain: CARO:0000003 ! connected anatomical structure
+range: CARO:0000003 ! connected anatomical structure
+is_a: RO:0002328 ! functionally related to
 
 [Typedef]
 id: RO:0002578

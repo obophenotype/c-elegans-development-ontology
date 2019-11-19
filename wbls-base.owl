@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wbls/wbls-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2019-09-20/wbls-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2019-11-19/wbls-base.owl"/>
         <dc:description>Ontology about the development and life stages of the C. elegans</dc:description>
         <dc:title>C. elegans Development Ontology</dc:title>
         <terms:license>CC-BY</terms:license>
@@ -291,7 +291,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All C. elegans development stages, including embryo, larva and adult stage.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">all stages</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
@@ -310,8 +310,8 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The whole period of embryogenesis, from the formation of an egg till its hatch.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
@@ -330,7 +330,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -356,7 +356,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -506,7 +506,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -599,7 +599,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -618,7 +618,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBls_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastulation and is enclosing.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enclosing embryo</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000013</oboInOwl:id>
@@ -627,7 +627,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000013"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastulation and is enclosing.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:wjc</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -636,7 +636,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -667,7 +667,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -705,7 +705,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -742,7 +742,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -773,7 +773,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -804,7 +804,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -835,7 +835,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -866,7 +866,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -906,7 +906,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
@@ -931,8 +931,8 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000105"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -963,8 +963,8 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1051,8 +1051,8 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1195,7 +1195,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1276,8 +1276,8 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1370,8 +1370,8 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000109"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1464,8 +1464,8 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1614,7 +1614,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1781,7 +1781,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1919,7 +1919,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1964,7 +1964,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -1989,7 +1989,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2014,7 +2014,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2039,7 +2039,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2064,7 +2064,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2089,7 +2089,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2120,7 +2120,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2151,7 +2151,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2182,7 +2182,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2213,7 +2213,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2244,7 +2244,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2356,7 +2356,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2395,7 +2395,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000075">
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">danielaraciti</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-05-30T09:04:28Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000075</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm life stage</rdfs:label>
@@ -3425,7 +3424,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22311,13 +22310,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000669">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">danielaraciti</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-11-26T11:49:22Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unfertilized egg</oboInOwl:hasBroadSynonym>
@@ -22331,7 +22324,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000670 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000670">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22362,7 +22355,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000671">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22393,7 +22386,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000672">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22424,7 +22417,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22455,7 +22448,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22486,7 +22479,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000675 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000675">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22517,7 +22510,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000676">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22685,7 +22678,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000683 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22719,7 +22712,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22753,7 +22746,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000685 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000685">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22787,7 +22780,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000686 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000686">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22821,7 +22814,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22855,7 +22848,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000688 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000688">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22889,7 +22882,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000689 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000689">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22923,7 +22916,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000690 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000690">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22957,7 +22950,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000691 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000691">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -22991,7 +22984,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000692">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -24395,7 +24388,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000797 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000797">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -24428,7 +24421,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000798 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000798">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -24461,7 +24454,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000799 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000799">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -24494,7 +24487,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000800">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -24527,7 +24520,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000801 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000801">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -24561,7 +24554,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000802 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000802">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -24592,7 +24585,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000002"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000825"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000003"/>
@@ -24605,6 +24598,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs during embryogenesis</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000803</oboInOwl:id>
@@ -24625,7 +24619,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000002"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000825"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/WBls_0000022"/>
@@ -24638,6 +24632,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs after embryogenesis</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000804</oboInOwl:id>
@@ -25216,7 +25211,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000822 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000822">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage classified by the number of minutes post first embryonic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000822</oboInOwl:id>
@@ -25235,7 +25230,7 @@
     <!-- http://purl.obolibrary.org/obo/WBls_0000823 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000823">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C. elegans life stage classified by the number of cells in the organism.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000823</oboInOwl:id>
@@ -25263,6 +25258,42 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000824"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C. elegans life stage that occurs during a larval molt</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBls_0000825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000825">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A life stage of the nematode Caenorhabditis elegans</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000825</oboInOwl:id>
+        <rdfs:label xml:lang="en">C. elegans life stage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000825"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A life stage of the nematode Caenorhabditis elegans</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBls_0000826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000826">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000826</oboInOwl:id>
+        <rdfs:label xml:lang="en">obsolete set of worm life stages</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000826"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
