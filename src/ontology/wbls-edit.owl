@@ -13,7 +13,7 @@ Ontology(<http://purl.obolibrary.org/obo/wbls.owl>
 Import(<http://purl.obolibrary.org/obo/wbls/imports/ro_import.owl>)
 Annotation(dce:description "Ontology about the development and life stages of the C. elegans")
 Annotation(dce:title "C. elegans Development Ontology")
-Annotation(dcterms:license "CC-BY")
+Annotation(dcterms:license "http://creativecommons.org/licenses/by/4.0/")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by> "OBO-Edit 2.2-rc1"^^xsd:string)
 Annotation(<http://www.geneontology.org/formats/oboInOwl#date> "15:11:2017 12:24"^^xsd:string)
 Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "worm_development"^^xsd:string)
