@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2019-11-19/wbls-base.owl
+data-version: wbls/releases/2020-01-27/wbls-base.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -9,7 +9,7 @@ remark: Version: 1.04
 ontology: wbls/wbls-base
 property_value: http://purl.org/dc/elements/1.1/description "Ontology about the development and life stages of the C. elegans" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 
 [Term]
 id: WBls:0000001
