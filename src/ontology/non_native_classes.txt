@@ -7,10 +7,8 @@ http://purl.obolibrary.org/obo/CARO_0000000
 http://purl.obolibrary.org/obo/CARO_0030000
 http://purl.obolibrary.org/obo/GO_0003674
 http://purl.obolibrary.org/obo/GO_0003824
-http://purl.obolibrary.org/obo/GO_0004872
 http://purl.obolibrary.org/obo/GO_0008150
 http://purl.obolibrary.org/obo/GO_0016301
 http://purl.obolibrary.org/obo/GO_0016740
 http://purl.obolibrary.org/obo/GO_0016772
-http://purl.obolibrary.org/obo/GO_0048018
 term
