@@ -11,11 +11,9 @@ http://purl.obolibrary.org/obo/CARO_0000000
 http://purl.obolibrary.org/obo/CARO_0030000
 http://purl.obolibrary.org/obo/GO_0003674
 http://purl.obolibrary.org/obo/GO_0003824
-http://purl.obolibrary.org/obo/GO_0004872
 http://purl.obolibrary.org/obo/GO_0016301
 http://purl.obolibrary.org/obo/GO_0016740
 http://purl.obolibrary.org/obo/GO_0016772
-http://purl.obolibrary.org/obo/GO_0048018
 http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000112
 http://purl.obolibrary.org/obo/IAO_0000114
@@ -37,7 +35,6 @@ http://purl.obolibrary.org/obo/RO_0002014
 http://purl.obolibrary.org/obo/RO_0002015
 http://purl.obolibrary.org/obo/RO_0002017
 http://purl.obolibrary.org/obo/RO_0002018
-http://purl.obolibrary.org/obo/RO_0002019
 http://purl.obolibrary.org/obo/RO_0002022
 http://purl.obolibrary.org/obo/RO_0002023
 http://purl.obolibrary.org/obo/RO_0002024
@@ -54,8 +51,6 @@ http://purl.obolibrary.org/obo/RO_0002212
 http://purl.obolibrary.org/obo/RO_0002213
 http://purl.obolibrary.org/obo/RO_0002215
 http://purl.obolibrary.org/obo/RO_0002216
-http://purl.obolibrary.org/obo/RO_0002217
-http://purl.obolibrary.org/obo/RO_0002218
 http://purl.obolibrary.org/obo/RO_0002222
 http://purl.obolibrary.org/obo/RO_0002233
 http://purl.obolibrary.org/obo/RO_0002254
@@ -122,8 +117,9 @@ http://purl.obolibrary.org/obo/RO_0004034
 http://purl.obolibrary.org/obo/RO_0004035
 http://purl.obolibrary.org/obo/RO_0004046
 http://purl.obolibrary.org/obo/RO_0004047
+http://purl.obolibrary.org/obo/RO_0011002
 http://purl.obolibrary.org/obo/caro.owl
-http://purl.obolibrary.org/obo/wbls/releases/2020-01-27/tmp/logical_dependencies_merged_module.owl
+http://purl.obolibrary.org/obo/wbls/releases/2020-03-31/tmp/logical_dependencies_merged_module.owl
 http://purl.obolibrary.org/obo/wbls/tmp/logical_dependencies_merged_module.owl
 http://purl.org/dc/elements/1.1/source
 http://purl.org/dc/elements/1.1/title
