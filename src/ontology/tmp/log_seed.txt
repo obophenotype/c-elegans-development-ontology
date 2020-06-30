@@ -119,7 +119,7 @@ http://purl.obolibrary.org/obo/RO_0004046
 http://purl.obolibrary.org/obo/RO_0004047
 http://purl.obolibrary.org/obo/RO_0011002
 http://purl.obolibrary.org/obo/caro.owl
-http://purl.obolibrary.org/obo/wbls/releases/2020-03-31/tmp/logical_dependencies_merged_module.owl
+http://purl.obolibrary.org/obo/wbls/releases/2020-06-30/tmp/logical_dependencies_merged_module.owl
 http://purl.obolibrary.org/obo/wbls/tmp/logical_dependencies_merged_module.owl
 http://purl.org/dc/elements/1.1/source
 http://purl.org/dc/elements/1.1/title
