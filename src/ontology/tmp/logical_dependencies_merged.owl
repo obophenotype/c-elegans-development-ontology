@@ -14,7 +14,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wbls/tmp/logical_dependencies_merged.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2020-03-31/tmp/logical_dependencies_merged.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2020-06-30/tmp/logical_dependencies_merged.owl"/>
         <dc:description xml:lang="en">The OBO Relations Ontology (RO) is a collection of OWL relations (ObjectProperties) intended for use across a wide variety of biological ontologies.</dc:description>
         <dc:title xml:lang="en">OBO Relations Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
