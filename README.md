@@ -3,7 +3,7 @@
 
 # C. elegans Development Ontology
 
-This ontology... YOUR DESCRIPTION HERE
+The C. elegans development (or life stage) ontology is a structured vocabulary of various developemental life stages of the nematode C. elegans and other nematodes and flat worms whose data is managed by WormBase (www.wormbase.org) and/or WormBase ParaSite (http://parasite.wormbase.org/)
 
 More information can be found at http://obofoundry.org/ontology/wbls
 
