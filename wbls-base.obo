@@ -31,7 +31,7 @@ is_a: WBls:0000825 ! C. elegans life stage
 [Term]
 id: WBls:0000003
 name: embryo Ce
-def: "The whole period of embryogenesis, from the formation of an egg till its hatch." [WB:wjc]
+def: "The whole period of embryogenesis in the nematode Caenorhabditis elegans, from the formation of an egg until hatching." [WB:WBPerson2987, WB:wjc]
 synonym: "embryo" BROAD []
 is_a: WBls:0000102 ! nematode embryo
 is_a: WBls:0000825 ! C. elegans life stage
@@ -208,7 +208,7 @@ relationship: starts_at_end_of WBls:0000020 ! 3-fold embryo Ce
 [Term]
 id: WBls:0000022
 name: postembryonic Ce
-def: "The stage after hatch till death." [WB:wjc]
+def: "A developemental life stage of the nematode Caenorhabditis elegans that occurs from egg hatching until death." [WB:WBPerson2987, WB:wjc]
 synonym: "postembryonic" BROAD []
 is_a: WBls:0000825 ! C. elegans life stage
 relationship: starts_at_end_of WBls:0000003 ! embryo Ce
@@ -216,7 +216,7 @@ relationship: starts_at_end_of WBls:0000003 ! embryo Ce
 [Term]
 id: WBls:0000023
 name: larva Ce
-def: "From the time after hatch till becomes adult." [WB:wjc]
+def: "A developmental life stage of the nematode Caenorhabditis elegans that occurs from egg hatching until adulthood." [WB:WBPerson2987, WB:wjc]
 synonym: "larva" BROAD []
 is_a: WBls:0000105 ! nematode larval stage
 is_a: WBls:0000825 ! C. elegans life stage
@@ -665,6 +665,7 @@ creation_date: 2012-05-22T14:35:04Z
 [Term]
 id: WBls:0000075
 name: worm life stage
+def: "A developemental life stage of a worm" [WB:WBPerson2987]
 created_by: danielaraciti
 
 [Term]
@@ -680,7 +681,7 @@ creation_date: 2015-03-19T10:49:23Z
 id: WBls:0000077
 name: Brugia sheathed microfilaria
 alt_id: WBls:0000662
-def: "Sheathed microfilaria larvae are surrounded by a membrane thought to be derived from the vitelline membrane." [WB:dr, WB:mb]
+def: "A Brugia microfilaria life stage in which larvae are surrounded by a membrane thought to be derived from the vitelline membrane, hence \"sheathed\"." [WB:dr, WB:mb, WB:WBPerson2987]
 synonym: "Brugia immature microfilaria" EXACT []
 synonym: "immature microfilaria Bma" RELATED []
 synonym: "sheathed microfilaria" BROAD []
@@ -844,7 +845,7 @@ creation_date: 2013-11-12T03:18:57Z
 [Term]
 id: WBls:0000092
 name: Brugia embryo
-def: "The whole period of embryogenesis, from the formation of an egg till its hatch." [WB:dr]
+def: "The whole period of embryogenesis in a roundworm of the genus Brugia, from the formation of an egg until hatching." [WB:dr, WB:WBPerson2987]
 synonym: "embryo" BROAD []
 synonym: "embryo Bma" EXACT []
 is_a: WBls:0000091 ! Brugia life stage
@@ -855,7 +856,7 @@ creation_date: 2013-11-12T04:48:28Z
 [Term]
 id: WBls:0000093
 name: Brugia postembryonic stage
-def: "The stage after hatch till death." [WB:dr]
+def: "A developemental life stage in a roundworm of the genus Brugia that occurs from egg hatching until death." [WB:dr, WB:WBPerson2987]
 synonym: "postembryonic Bma" EXACT []
 synonym: "postembryonic stage" BROAD []
 is_a: WBls:0000091 ! Brugia life stage
@@ -901,7 +902,7 @@ creation_date: 2013-11-12T05:00:28Z
 [Term]
 id: WBls:0000097
 name: Brugia larval stage
-def: "From the time after hatch till becomes adult." [WB:dr]
+def: "A developmental life stage of a roundworm of the genus Brugia that occurs from egg hatching until adulthood." [WB:dr, WB:WBPerson2987]
 synonym: "larva Bma" EXACT []
 synonym: "larval stage" BROAD []
 is_a: WBls:0000105 ! nematode larval stage
@@ -961,7 +962,7 @@ creation_date: 2013-11-25T06:13:37Z
 [Term]
 id: WBls:0000102
 name: nematode embryo
-def: "The whole period of embryogenesis, from the formation of an egg till its hatch." [WB:dr]
+def: "The whole period of embryogenesis in a nematode, from the formation of an egg until hatching." [WB:dr, WB:WBPerson2987]
 synonym: "embryo nematode" EXACT []
 synonym: "nematode egg stage" EXACT []
 is_a: WBls:0000101 ! Nematode life stage
@@ -971,7 +972,7 @@ creation_date: 2013-11-25T06:14:14Z
 [Term]
 id: WBls:0000103
 name: postembryonic nematode
-def: "The stage after hatch till death." [WB:dr]
+def: "A developemental life stage in a nematode that occurs from egg hatching until death." [WB:dr, WB:WBPerson2987]
 is_a: WBls:0000101 ! Nematode life stage
 relationship: starts_at_end_of WBls:0000102 ! nematode embryo
 created_by: danielaraciti
@@ -1041,7 +1042,7 @@ creation_date: 2013-11-25T06:22:48Z
 [Term]
 id: WBls:0000110
 name: sheathed microfilaria
-def: "Sheathed microfilaria larvae are surrounded by a membrane thought to be derived from the vitelline membrane." [WB:dr]
+def: "A microfilaria life stage in which larvae are surrounded by a membrane thought to be derived from the vitelline membrane, hence \"sheathed\"." [WB:dr, WB:WBPerson2987]
 synonym: "sheathed microfilaria nematode" EXACT []
 synonym: "sheathed microfilariae" EXACT []
 is_a: WBls:0000664 ! microfilaria
@@ -7150,6 +7151,7 @@ creation_date: 2014-11-25T09:25:34Z
 [Term]
 id: WBls:0000666
 name: unsheathed microfilaria
+def: "A microfilaria life stage in which larvae are not sheathed by a membrane thought to be derived from the vitelline membrane." [WB:WBPerson2987]
 synonym: "unsheathed microfilaria nematode" EXACT []
 synonym: "unsheathed microfilariae" EXACT []
 is_a: WBls:0000664 ! microfilaria
@@ -7178,6 +7180,7 @@ creation_date: 2014-11-25T09:52:54Z
 [Term]
 id: WBls:0000669
 name: unfertilized egg Ce
+def: "A developmental life stage of the nematode Caenorhabditis elegans that occurs in an egg (oocyte), before fertilization by sperm." [WB:WBPerson2987]
 synonym: "unfertilized egg" BROAD []
 is_a: WBls:0000825 ! C. elegans life stage
 created_by: danielaraciti
@@ -7706,7 +7709,7 @@ creation_date: 2016-04-27T13:01:06Z
 
 [Term]
 id: WBls:0000721
-name: nematode adult intestinal stage
+name: obsolete nematode adult intestinal stage
 def: "OBSOLETE. An adult life-stage of a soil-transmitted nematode such as Trichuris sp. that resides in the intestinal epitheium. The stage ends when the posterior of the male and female worms emerge free into the intestinal lumen at which point the worm enters the lumenal stage." [PMID:19079187, WB:jl]
 comment: This term was made obsolete because this is an anotomical part and not a life-stage.
 synonym: "nematode adult intestinal phase" EXACT []
@@ -7716,7 +7719,7 @@ creation_date: 2016-04-27T17:03:22Z
 
 [Term]
 id: WBls:0000722
-name: nematode adult lumenal stage
+name: obsolete nematode adult lumenal stage
 def: "OBSOLETE. An adult life-stage of a soil-transmitted nematode such as Trichuris sp. in which the anterior portion (whip-like end) is threaded into the tissue mucosa and the posterior of the male and female worms emerges free into the intestinal lumen to facilitate feeding, mating, and subsequent egg deposition." [PMID:19079187, WB:jl]
 comment: This term was made obsolete because this is an anotomical part and not a life-stage.
 synonym: "nematode adult lumenal phase" EXACT []

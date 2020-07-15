@@ -1,23 +1,10 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_definition	WBls:0000003	IAO:0000115	The whole period of embryogenesis, from the formation of an egg till its hatch.	
-ERROR	duplicate_definition	WBls:0000092	IAO:0000115	The whole period of embryogenesis, from the formation of an egg till its hatch.	
-ERROR	duplicate_definition	WBls:0000102	IAO:0000115	The whole period of embryogenesis, from the formation of an egg till its hatch.	
-ERROR	duplicate_definition	WBls:0000022	IAO:0000115	The stage after hatch till death.	
-ERROR	duplicate_definition	WBls:0000093	IAO:0000115	The stage after hatch till death.	
-ERROR	duplicate_definition	WBls:0000103	IAO:0000115	The stage after hatch till death.	
-ERROR	duplicate_definition	WBls:0000077	IAO:0000115	Sheathed microfilaria larvae are surrounded by a membrane thought to be derived from the vitelline membrane.	
-ERROR	duplicate_definition	WBls:0000110	IAO:0000115	Sheathed microfilaria larvae are surrounded by a membrane thought to be derived from the vitelline membrane.	
-ERROR	duplicate_definition	WBls:0000023	IAO:0000115	From the time after hatch till becomes adult.	
-ERROR	duplicate_definition	WBls:0000097	IAO:0000115	From the time after hatch till becomes adult.	
 WARN	missing_definition	BFO:0000050	IAO:0000115		
 WARN	missing_definition	BFO:0000062	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
 WARN	missing_definition	RO:0002087	IAO:0000115		
-WARN	missing_definition	WBls:0000075	IAO:0000115		
-WARN	missing_definition	WBls:0000666	IAO:0000115		
 WARN	missing_definition	WBls:0000667	IAO:0000115		
 WARN	missing_definition	WBls:0000668	IAO:0000115		
-WARN	missing_definition	WBls:0000669	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115		
@@ -27,8 +14,6 @@ WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115
 WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115		
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
-WARN	missing_obsolete_label	WBls:0000721	rdfs:label	nematode adult intestinal stage	
-WARN	missing_obsolete_label	WBls:0000722	rdfs:label	nematode adult lumenal stage	
 INFO	lowercase_definition	WBls:0000004	IAO:0000115	0-350min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 560 cells. From start of first cleavage till cleavage is over.	
 INFO	lowercase_definition	WBls:0000005	IAO:0000115	0-100min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 28 cells. From first cleavage till the start of gastrulation.	
 INFO	lowercase_definition	WBls:0000007	IAO:0000115	0-20min after first cleavage at 20 Centigrade.  Contains 2 cells.	
