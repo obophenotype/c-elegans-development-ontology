@@ -931,7 +931,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000002> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000003> (embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000003> "The whole period of embryogenesis, from the formation of an egg till its hatch."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000003> "The whole period of embryogenesis in the nematode Caenorhabditis elegans, from the formation of an egg until hatching."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000003> "embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000003> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000003> "WBls:0000003"^^xsd:string)
@@ -1146,7 +1146,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000021> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000022> (postembryonic Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000022> "The stage after hatch till death."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000022> "A developemental life stage of the nematode Caenorhabditis elegans that occurs from egg hatching until death."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000022> "postembryonic"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000022> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000022> "WBls:0000022"^^xsd:string)
@@ -1156,7 +1156,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000022> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000023> (larva Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000023> "From the time after hatch till becomes adult."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000023> "A developmental life stage of the nematode Caenorhabditis elegans that occurs from egg hatching until adulthood."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000023> "larva"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000023> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000023> "WBls:0000023"^^xsd:string)
@@ -1709,6 +1709,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000074> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000075> (worm life stage)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000075> "A developemental life stage of a worm"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000075> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000075> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000075> "WBls:0000075"^^xsd:string)
@@ -1727,7 +1728,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000076> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000077> (Brugia sheathed microfilaria)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:mb"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000077> "Sheathed microfilaria larvae are surrounded by a membrane thought to be derived from the vitelline membrane."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:mb"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000077> "A Brugia microfilaria life stage in which larvae are surrounded by a membrane thought to be derived from the vitelline membrane, hence \"sheathed\"."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000077> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000077> "2012-05-30T09:23:44Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/WBls_0000077> "WBls:0000662"^^xsd:string)
@@ -1926,7 +1927,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000091> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000092> (Brugia embryo)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000092> "The whole period of embryogenesis, from the formation of an egg till its hatch."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000092> "The whole period of embryogenesis in a roundworm of the genus Brugia, from the formation of an egg until hatching."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000092> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000092> "2013-11-12T04:48:28Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000092> "embryo"^^xsd:string)
@@ -1939,7 +1940,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000092> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000093> (Brugia postembryonic stage)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000093> "The stage after hatch till death."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000093> "A developemental life stage in a roundworm of the genus Brugia that occurs from egg hatching until death."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000093> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000093> "2013-11-12T04:50:29Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000093> "postembryonic stage"^^xsd:string)
@@ -1993,7 +1994,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000096> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000097> (Brugia larval stage)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000097> "From the time after hatch till becomes adult."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000097> "A developmental life stage of a roundworm of the genus Brugia that occurs from egg hatching until adulthood."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000097> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000097> "2013-11-12T05:12:19Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000097> "larval stage"^^xsd:string)
@@ -2063,7 +2064,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000101> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000102> (nematode embryo)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000102> "The whole period of embryogenesis, from the formation of an egg till its hatch."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000102> "The whole period of embryogenesis in a nematode, from the formation of an egg until hatching."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000102> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000102> "2013-11-25T06:14:14Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000102> "embryo nematode"^^xsd:string)
@@ -2075,7 +2076,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000102> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000103> (postembryonic nematode)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000103> "The stage after hatch till death."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000103> "A developemental life stage in a nematode that occurs from egg hatching until death."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000103> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000103> "2013-11-25T06:14:39Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000103> "worm_development"^^xsd:string)
@@ -2159,7 +2160,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000109> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000110> (sheathed microfilaria)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000110> "Sheathed microfilaria larvae are surrounded by a membrane thought to be derived from the vitelline membrane."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000110> "A microfilaria life stage in which larvae are surrounded by a membrane thought to be derived from the vitelline membrane, hence \"sheathed\"."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000110> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000110> "2013-11-25T06:23:23Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000110> "sheathed microfilaria nematode"^^xsd:string)
@@ -9384,6 +9385,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000665> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000666> (unsheathed microfilaria)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000666> "A microfilaria life stage in which larvae are not sheathed by a membrane thought to be derived from the vitelline membrane."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000666> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000666> "2014-11-25T09:50:35Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000666> "unsheathed microfilaria nematode"^^xsd:string)
@@ -9418,6 +9420,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000668> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000669> (unfertilized egg Ce)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000669> "A developmental life stage of the nematode Caenorhabditis elegans that occurs in an egg (oocyte), before fertilization by sperm."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000669> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000669> "2014-11-26T11:49:22Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000669> "unfertilized egg"^^xsd:string)
@@ -10049,7 +10052,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000720> "metacercarium"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000720> <http://purl.obolibrary.org/obo/WBls_0000711>)
 
-# Class: <http://purl.obolibrary.org/obo/WBls_0000721> (nematode adult intestinal stage)
+# Class: <http://purl.obolibrary.org/obo/WBls_0000721> (obsolete nematode adult intestinal stage)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19079187"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:jl"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000721> "OBSOLETE. An adult life-stage of a soil-transmitted nematode such as Trichuris sp. that resides in the intestinal epitheium. The stage ends when the posterior of the male and female worms emerge free into the intestinal lumen at which point the worm enters the lumenal stage."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000721> "jl16"^^xsd:string)
@@ -10058,10 +10061,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000721> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000721> "WBls:0000721"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/WBls_0000721> "This term was made obsolete because this is an anotomical part and not a life-stage."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000721> "nematode adult intestinal stage"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000721> "obsolete nematode adult intestinal stage"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/WBls_0000721> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/WBls_0000722> (nematode adult lumenal stage)
+# Class: <http://purl.obolibrary.org/obo/WBls_0000722> (obsolete nematode adult lumenal stage)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19079187"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:jl"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000722> "OBSOLETE. An adult life-stage of a soil-transmitted nematode such as Trichuris sp. in which the anterior portion (whip-like end) is threaded into the tissue mucosa and the posterior of the male and female worms emerges free into the intestinal lumen to facilitate feeding, mating, and subsequent egg deposition."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000722> "jl16"^^xsd:string)
@@ -10070,7 +10073,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000722> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000722> "WBls:0000722"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/WBls_0000722> "This term was made obsolete because this is an anotomical part and not a life-stage."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000722> "nematode adult lumenal stage"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000722> "obsolete nematode adult lumenal stage"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/WBls_0000722> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000723> (Onchocerca embryonic life stage)
