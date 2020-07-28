@@ -941,7 +941,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000003> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000004> (proliferating embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000004> "0-350min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 560 cells. From start of first cleavage till cleavage is over."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000004> "The C. elegans life stage spanning 0-350min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 560 cells. From start of first cleavage until cleavage is over."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000004> "proliferating embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000004> "early embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000004> "worm_development"^^xsd:string)
@@ -952,7 +952,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000004> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000005> (blastula embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000005> "0-100min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 28 cells. From first cleavage till the start of gastrulation."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000005> "The C. elegans life stage spanning 0-100min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 28 cells. From first cleavage until the start of gastrulation."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000005> "blastula embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000005> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000005> "WBls:0000005"^^xsd:string)
@@ -974,7 +974,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000006> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000007> (2-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000007> "0-20min after first cleavage at 20 Centigrade.  Contains 2 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000007> "The C. elegans life stage spanning 0-20min after first cleavage at 20 Centigrade.  Contains 2 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000007> "2-cell embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000007> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000007> "WBls:0000007"^^xsd:string)
@@ -985,7 +985,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000007> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000008> (4-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000008> "20-40min after first cleavage at 20 Centigrade.  Contains 4 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000008> "The C. elegans life stage spanning 20-40min after first cleavage at 20 Centigrade.  Contains 4 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000008> "4-cell embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000008> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000008> "WBls:0000008"^^xsd:string)
@@ -996,7 +996,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000008> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000009> (28-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000009> "100-105 min after first cleaveage at 20 Centigrade. Contains 28 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000009> "The C. elegans life stage spanning 100-105 min after first cleaveage at 20 Centigrade. Contains 28 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000009> "28-cell embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000009> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000009> "WBls:0000009"^^xsd:string)
@@ -1006,7 +1006,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000009> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000010> (gastrulating embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000010> "100-290min after first cleavage at 20 Centigrade. Proliferate from 28 cells to 421  cells. Referring to the whole period of gastrulation."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000010> "The C. elegans life stage spanning 100-290min after first cleavage at 20 Centigrade. Proliferate from 28 cells to 421  cells. Referring to the whole period of gastrulation."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000010> "gastrulating embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000010> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000010> "WBls:0000010"^^xsd:string)
@@ -1017,7 +1017,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000010> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000011> (51-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000011> "120-135 min after first cleavage at 20 Centigrade. Contains 51 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000011> "The C. elegans life stage spanning 120-135 min after first cleavage at 20 Centigrade. Contains 51 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000011> "51-cell embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000011> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000011> "WBls:0000011"^^xsd:string)
@@ -1028,7 +1028,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000011> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000012> (88-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000012> "145-150 min after first cleavage at 20 Centigrade. Contains 88 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000012> "The C. elegans life stage spanning 145-150 min after first cleavage at 20 Centigrade. Contains 88 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000012> "88-cell embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000012> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000012> "WBls:0000012"^^xsd:string)
@@ -1039,7 +1039,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000012> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000013> (enclosing embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000013> "290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000013> "The C. elegans life stage spanning 290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000013> "enclosing embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000013> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000013> "WBls:0000013"^^xsd:string)
@@ -1051,7 +1051,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000013> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000014> (late cleavage stage embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000014> "210-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage before the fast cleavage of cells finishes."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000014> "The C. elegans life stage spanning 210-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage before the fast cleavage of cells finishes."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000014> "late cleavage stage embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000014> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000014> "WBls:0000014"^^xsd:string)
@@ -1062,7 +1062,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000014> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000015> (elongating embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000015> "350-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The stage that embryo starts elongation till elongation is over."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000015> "The C. elegans life stage spanning 350-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The stage that embryo starts elongation until elongation is over."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000015> "elongating embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000015> "mid embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000015> "worm_development"^^xsd:string)
@@ -1075,7 +1075,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000015> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000016> (bean embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000016> "350-390min after first cleavage at 20 Centigrade.  Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. Emrbyo elongation started but have not formed comma shape yet. The shape of embryo looks like a lima bean. A stage right before comma embryo. Also called lima embryo or lima bean stage."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000016> "The C. elegans life stage spanning 350-390min after first cleavage at 20 Centigrade.  Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. Emrbyo elongation started but have not formed comma shape yet. The shape of embryo looks like a lima bean. A stage right before comma embryo. Also called lima embryo or lima bean stage."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000016> "bean embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000016> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000016> "WBls:0000016"^^xsd:string)
@@ -1087,7 +1087,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000016> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000017> (comma embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000017> "390-420min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo looks like a comma. A stage between bean embryo and 1.5-fold embryo."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000017> "The C. elegans life stage spanning 390-420min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo looks like a comma. A stage between bean embryo and 1.5-fold embryo."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000017> "comma embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000017> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000017> "WBls:0000017"^^xsd:string)
@@ -1098,7 +1098,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000017> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000018> (1.5-fold embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000018> "420-460min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and fold back 50%. A stage between comma embryo and 2-fold embryo."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000018> "The C. elegans life stage spanning 420-460min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and fold back 50%. A stage between comma embryo and 2-fold embryo."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000018> "1.5-fold embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000018> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000018> "WBls:0000018"^^xsd:string)
@@ -1109,7 +1109,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000018> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000019> (2-fold embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000019> "460-520min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and double fold. A stage between 1.5-fold embryo and 3-fold embryo."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000019> "The C. elegans life stage spanning 460-520min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and double fold. A stage between 1.5-fold embryo and 3-fold embryo."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000019> "2-fold embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000019> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000019> "WBls:0000019"^^xsd:string)
@@ -1120,7 +1120,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000019> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000020> (3-fold embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000020> "520-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and tripple fold. A stage between 2-fold embryo and fully-elongated embryo. Also called pretzel embryo or pretzel stage."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000020> "The C. elegans life stage spanning 520-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and tripple fold. A stage between 2-fold embryo and fully-elongated embryo. Also called pretzel embryo or pretzel stage."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000020> "3-fold embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000020> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000020> "WBls:0000020"^^xsd:string)
@@ -1131,7 +1131,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000020> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000021> (fully-elongated embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000021> "620-800min(hatch) after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. A stage after elongation is over. The last stage of embryogenesis. Also called pre-hatched embryo, late embryo or morphogenetic embryo."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000021> "The C. elegans life stage spanning 620-800min(hatch) after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. A stage after elongation is over. The last stage of embryogenesis. Also called pre-hatched embryo, late embryo or morphogenetic embryo."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000021> "fully-elongated embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000021> "late embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000021> "morphogenetic stage"^^xsd:string)
@@ -1665,7 +1665,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000070> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000071> (8-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000071> "~50 min after first cleavage at 20 Centigrade.  Contains 8 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000071> "The C. elegans life stage spanning ~50 min after first cleavage at 20 Centigrade.  Contains 8 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000071> "8-cell embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000071> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000071> "WBls:0000071"^^xsd:string)
@@ -1676,7 +1676,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000071> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000072> (12-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000072> "~55 min after first cleavage at 20 Centigrade.  Contains 12 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000072> "The C. elegans life stage spanning ~55 min after first cleavage at 20 Centigrade.  Contains 12 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000072> "12-cell embryo"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000072> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000072> "WBls:0000072"^^xsd:string)
@@ -1903,7 +1903,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000089> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000090> (96-cell embryo Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000090> "155-165 min after first cleavage at 20 Centigrade. Contains 96 cells."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:dr"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000090> "The C. elegans life stage spanning 155-165 min after first cleavage at 20 Centigrade. Contains 96 cells."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/WBls_0000090> "danielaraciti"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/WBls_0000090> "2012-10-16T15:37:30Z"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000090> "96-cell embryo"^^xsd:string)
@@ -10440,6 +10440,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000805> "WBls:0000805"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000805> "C. elegans life stage occurring during elongating embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000805> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000803> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000015>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000805> <http://purl.obolibrary.org/obo/WBls_0000803>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000806> (C. elegans life stage occurring during 1.5-fold embryo)
 
@@ -10448,6 +10449,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000806> "WBls:0000806"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000806> "C. elegans life stage occurring during 1.5-fold embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000806> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000805> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000018>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000806> <http://purl.obolibrary.org/obo/WBls_0000805>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000807> (C. elegans life stage occurring during 2-fold embryo)
 
@@ -10456,6 +10458,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000807> "WBls:0000807"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000807> "C. elegans life stage occurring during 2-fold embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000807> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000805> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000019>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000807> <http://purl.obolibrary.org/obo/WBls_0000805>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000808> (C. elegans life stage occurring during 3-fold embryo)
 
@@ -10464,6 +10467,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000808> "WBls:0000808"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000808> "C. elegans life stage occurring during 3-fold embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000808> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000805> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000020>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000808> <http://purl.obolibrary.org/obo/WBls_0000805>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000809> (C. elegans life stage occurring during bean embryo)
 
@@ -10472,6 +10476,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000809> "WBls:0000809"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000809> "C. elegans life stage occurring during bean embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000809> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000805> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000016>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000809> <http://purl.obolibrary.org/obo/WBls_0000805>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000810> (C. elegans life stage occurring during comma embryo)
 
@@ -10480,6 +10485,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000810> "WBls:0000810"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000810> "C. elegans life stage occurring during comma embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000810> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000805> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000017>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000810> <http://purl.obolibrary.org/obo/WBls_0000805>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000811> (C. elegans life stage occurring during fully-elongated embryo)
 
@@ -10488,6 +10494,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000811> "WBls:0000811"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000811> "C. elegans life stage occurring during fully-elongated embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000811> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000803> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000021>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000811> <http://purl.obolibrary.org/obo/WBls_0000803>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000812> (C. elegans life stage occurring during proliferating embryo)
 
@@ -10496,6 +10503,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000812> "WBls:0000812"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000812> "C. elegans life stage occurring during proliferating embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000812> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000803> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000004>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000812> <http://purl.obolibrary.org/obo/WBls_0000803>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000813> (C. elegans life stage occurring during blastula embryo)
 
@@ -10504,6 +10512,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000813> "WBls:0000813"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000813> "C. elegans life stage occurring during blastula embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000813> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000812> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000005>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000813> <http://purl.obolibrary.org/obo/WBls_0000812>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000814> (C. elegans life stage occurring during gastrulation)
 
@@ -10512,6 +10521,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000814> "WBls:0000814"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000814> "C. elegans life stage occurring during gastrulation"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000814> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000812> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000010>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000814> <http://purl.obolibrary.org/obo/WBls_0000812>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000815> (C. elegans life stage occurring during enclosing embryo)
 
@@ -10520,6 +10530,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000815> "WBls:0000815"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000815> "C. elegans life stage occurring during enclosing embryo"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000815> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000812> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000013>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000815> <http://purl.obolibrary.org/obo/WBls_0000812>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000816> (C. elegans life stage occurring during adulthood)
 
@@ -10528,6 +10539,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000816> "WBls:0000816"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000816> "C. elegans life stage occurring during adulthood"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000816> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000804> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000041>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000816> <http://purl.obolibrary.org/obo/WBls_0000804>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000817> (C. elegans life stage occurring during larval stage)
 
@@ -10536,6 +10548,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000817> "WBls:0000817"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000817> "C. elegans life stage occurring during larval stage"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000817> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000804> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000817> <http://purl.obolibrary.org/obo/WBls_0000804>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000818> (C. elegans life stage occurring during L1 larval stage)
 
@@ -10544,6 +10557,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000818> "WBls:0000818"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000818> "C. elegans life stage occurring during L1 larval stage"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000818> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000817> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000024>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000818> <http://purl.obolibrary.org/obo/WBls_0000817>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000819> (C. elegans life stage occurring during L2 larval stage)
 
@@ -10552,6 +10566,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000819> "WBls:0000819"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000819> "C. elegans life stage occurring during L2 larval stage"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000819> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000817> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000027>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000819> <http://purl.obolibrary.org/obo/WBls_0000817>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000820> (C. elegans life stage occurring during L3 larval stage)
 
@@ -10560,6 +10575,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000820> "WBls:0000820"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000820> "C. elegans life stage occurring during L3 larval stage"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000820> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000817> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000035>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000820> <http://purl.obolibrary.org/obo/WBls_0000817>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000821> (C. elegans life stage occurring during L4 larval stage)
 
@@ -10568,6 +10584,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000821> "WBls:0000821"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000821> "C. elegans life stage occurring during L4 larval stage"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/WBls_0000821> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/WBls_0000817> ObjectUnionOf(<http://purl.obolibrary.org/obo/WBls_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000038>))))
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000821> <http://purl.obolibrary.org/obo/WBls_0000817>)
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000822> (C. elegans life stage by minutes post first cleavage)
 
