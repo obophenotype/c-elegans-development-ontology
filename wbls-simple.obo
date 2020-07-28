@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2020-07-15/wbls-simple.owl
+data-version: wbls/releases/2020-07-28/wbls-simple.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -38,7 +38,7 @@ is_a: WBls:0000803 ! C. elegans life stage occurring during embryogenesis
 [Term]
 id: WBls:0000004
 name: proliferating embryo Ce
-def: "0-350min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 560 cells. From start of first cleavage till cleavage is over." [WB:wjc]
+def: "The C. elegans life stage spanning 0-350min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 560 cells. From start of first cleavage until cleavage is over." [WB:wjc]
 synonym: "early embryo" EXACT []
 synonym: "proliferating embryo" BROAD []
 is_a: WBls:0000812 ! C. elegans life stage occurring during proliferating embryo
@@ -47,7 +47,7 @@ relationship: part_of WBls:0000003 ! embryo Ce
 [Term]
 id: WBls:0000005
 name: blastula embryo Ce
-def: "0-100min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 28 cells. From first cleavage till the start of gastrulation." [WB:wjc]
+def: "The C. elegans life stage spanning 0-100min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 28 cells. From first cleavage until the start of gastrulation." [WB:wjc]
 synonym: "blastula embryo" BROAD []
 is_a: WBls:0000813 ! C. elegans life stage occurring during blastula embryo
 relationship: part_of WBls:0000004 ! proliferating embryo Ce
@@ -66,7 +66,7 @@ relationship: starts_at_end_of WBls:0000669 ! unfertilized egg Ce
 [Term]
 id: WBls:0000007
 name: 2-cell embryo Ce
-def: "0-20min after first cleavage at 20 Centigrade.  Contains 2 cells." [WB:wjc]
+def: "The C. elegans life stage spanning 0-20min after first cleavage at 20 Centigrade.  Contains 2 cells." [WB:wjc]
 synonym: "2-cell embryo" BROAD []
 is_a: WBls:0000813 ! C. elegans life stage occurring during blastula embryo
 is_a: WBls:0000823 ! C. elegans life stage by number of cells
@@ -76,7 +76,7 @@ relationship: starts_at_end_of WBls:0000006 ! 1-cell embryo Ce
 [Term]
 id: WBls:0000008
 name: 4-cell embryo Ce
-def: "20-40min after first cleavage at 20 Centigrade.  Contains 4 cells." [WB:wjc]
+def: "The C. elegans life stage spanning 20-40min after first cleavage at 20 Centigrade.  Contains 4 cells." [WB:wjc]
 synonym: "4-cell embryo" BROAD []
 is_a: WBls:0000813 ! C. elegans life stage occurring during blastula embryo
 is_a: WBls:0000823 ! C. elegans life stage by number of cells
@@ -86,7 +86,7 @@ relationship: starts_at_end_of WBls:0000007 ! 2-cell embryo Ce
 [Term]
 id: WBls:0000009
 name: 28-cell embryo Ce
-def: "100-105 min after first cleaveage at 20 Centigrade. Contains 28 cells." [WB:wjc]
+def: "The C. elegans life stage spanning 100-105 min after first cleaveage at 20 Centigrade. Contains 28 cells." [WB:wjc]
 synonym: "28-cell embryo" BROAD []
 is_a: WBls:0000814 ! C. elegans life stage occurring during gastrulation
 is_a: WBls:0000823 ! C. elegans life stage by number of cells
@@ -95,7 +95,7 @@ relationship: part_of WBls:0000010 ! gastrulating embryo Ce
 [Term]
 id: WBls:0000010
 name: gastrulating embryo Ce
-def: "100-290min after first cleavage at 20 Centigrade. Proliferate from 28 cells to 421  cells. Referring to the whole period of gastrulation." [WB:wjc]
+def: "The C. elegans life stage spanning 100-290min after first cleavage at 20 Centigrade. Proliferate from 28 cells to 421  cells. Referring to the whole period of gastrulation." [WB:wjc]
 synonym: "gastrulating embryo" BROAD []
 is_a: WBls:0000814 ! C. elegans life stage occurring during gastrulation
 relationship: part_of WBls:0000004 ! proliferating embryo Ce
@@ -104,7 +104,7 @@ relationship: starts_at_end_of WBls:0000005 ! blastula embryo Ce
 [Term]
 id: WBls:0000011
 name: 51-cell embryo Ce
-def: "120-135 min after first cleavage at 20 Centigrade. Contains 51 cells." [WB:wjc]
+def: "The C. elegans life stage spanning 120-135 min after first cleavage at 20 Centigrade. Contains 51 cells." [WB:wjc]
 synonym: "51-cell embryo" BROAD []
 is_a: WBls:0000814 ! C. elegans life stage occurring during gastrulation
 is_a: WBls:0000823 ! C. elegans life stage by number of cells
@@ -114,7 +114,7 @@ relationship: preceded_by WBls:0000086 ! 44-cell embryo Ce
 [Term]
 id: WBls:0000012
 name: 88-cell embryo Ce
-def: "145-150 min after first cleavage at 20 Centigrade. Contains 88 cells." [WB:wjc]
+def: "The C. elegans life stage spanning 145-150 min after first cleavage at 20 Centigrade. Contains 88 cells." [WB:wjc]
 synonym: "88-cell embryo" BROAD []
 is_a: WBls:0000814 ! C. elegans life stage occurring during gastrulation
 is_a: WBls:0000823 ! C. elegans life stage by number of cells
@@ -124,7 +124,7 @@ relationship: preceded_by WBls:0000088 ! 86-cell embryo Ce
 [Term]
 id: WBls:0000013
 name: enclosing embryo Ce
-def: "290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing." [WB:wjc]
+def: "The C. elegans life stage spanning 290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing." [WB:wjc]
 synonym: "enclosing embryo" BROAD []
 is_a: WBls:0000815 ! C. elegans life stage occurring during enclosing embryo
 relationship: part_of WBls:0000014 ! late cleavage stage embryo Ce
@@ -134,7 +134,7 @@ relationship: starts_at_end_of WBls:0000010 ! gastrulating embryo Ce
 [Term]
 id: WBls:0000014
 name: late cleavage stage embryo Ce
-def: "210-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage before the fast cleavage of cells finishes." [WB:wjc]
+def: "The C. elegans life stage spanning 210-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage before the fast cleavage of cells finishes." [WB:wjc]
 synonym: "late cleavage stage embryo" BROAD []
 is_a: WBls:0000812 ! C. elegans life stage occurring during proliferating embryo
 relationship: part_of WBls:0000004 ! proliferating embryo Ce
@@ -143,7 +143,7 @@ relationship: preceded_by WBls:0000010 ! gastrulating embryo Ce
 [Term]
 id: WBls:0000015
 name: elongating embryo Ce
-def: "350-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The stage that embryo starts elongation till elongation is over." [WB:wjc]
+def: "The C. elegans life stage spanning 350-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The stage that embryo starts elongation until elongation is over." [WB:wjc]
 synonym: "elongating embryo" BROAD []
 synonym: "mid embryo" EXACT []
 is_a: WBls:0000805 ! C. elegans life stage occurring during elongating embryo
@@ -154,7 +154,7 @@ relationship: starts_at_end_of WBls:0000004 ! proliferating embryo Ce
 [Term]
 id: WBls:0000016
 name: bean embryo Ce
-def: "350-390min after first cleavage at 20 Centigrade.  Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. Emrbyo elongation started but have not formed comma shape yet. The shape of embryo looks like a lima bean. A stage right before comma embryo. Also called lima embryo or lima bean stage." [WB:wjc]
+def: "The C. elegans life stage spanning 350-390min after first cleavage at 20 Centigrade.  Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. Emrbyo elongation started but have not formed comma shape yet. The shape of embryo looks like a lima bean. A stage right before comma embryo. Also called lima embryo or lima bean stage." [WB:wjc]
 synonym: "bean embryo" BROAD []
 is_a: WBls:0000809 ! C. elegans life stage occurring during bean embryo
 relationship: part_of WBls:0000015 ! elongating embryo Ce
@@ -164,7 +164,7 @@ relationship: starts_at_end_of WBls:0000014 ! late cleavage stage embryo Ce
 [Term]
 id: WBls:0000017
 name: comma embryo Ce
-def: "390-420min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo looks like a comma. A stage between bean embryo and 1.5-fold embryo." [WB:wjc]
+def: "The C. elegans life stage spanning 390-420min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo looks like a comma. A stage between bean embryo and 1.5-fold embryo." [WB:wjc]
 synonym: "comma embryo" BROAD []
 is_a: WBls:0000810 ! C. elegans life stage occurring during comma embryo
 relationship: part_of WBls:0000015 ! elongating embryo Ce
@@ -173,7 +173,7 @@ relationship: starts_at_end_of WBls:0000016 ! bean embryo Ce
 [Term]
 id: WBls:0000018
 name: 1.5-fold embryo Ce
-def: "420-460min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and fold back 50%. A stage between comma embryo and 2-fold embryo." [WB:wjc]
+def: "The C. elegans life stage spanning 420-460min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and fold back 50%. A stage between comma embryo and 2-fold embryo." [WB:wjc]
 synonym: "1.5-fold embryo" BROAD []
 is_a: WBls:0000806 ! C. elegans life stage occurring during 1.5-fold embryo
 relationship: part_of WBls:0000015 ! elongating embryo Ce
@@ -182,7 +182,7 @@ relationship: starts_at_end_of WBls:0000017 ! comma embryo Ce
 [Term]
 id: WBls:0000019
 name: 2-fold embryo Ce
-def: "460-520min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and double fold. A stage between 1.5-fold embryo and 3-fold embryo." [WB:wjc]
+def: "The C. elegans life stage spanning 460-520min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and double fold. A stage between 1.5-fold embryo and 3-fold embryo." [WB:wjc]
 synonym: "2-fold embryo" BROAD []
 is_a: WBls:0000807 ! C. elegans life stage occurring during 2-fold embryo
 relationship: part_of WBls:0000015 ! elongating embryo Ce
@@ -191,7 +191,7 @@ relationship: starts_at_end_of WBls:0000018 ! 1.5-fold embryo Ce
 [Term]
 id: WBls:0000020
 name: 3-fold embryo Ce
-def: "520-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and tripple fold. A stage between 2-fold embryo and fully-elongated embryo. Also called pretzel embryo or pretzel stage." [WB:wjc]
+def: "The C. elegans life stage spanning 520-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and tripple fold. A stage between 2-fold embryo and fully-elongated embryo. Also called pretzel embryo or pretzel stage." [WB:wjc]
 synonym: "3-fold embryo" BROAD []
 is_a: WBls:0000808 ! C. elegans life stage occurring during 3-fold embryo
 relationship: part_of WBls:0000015 ! elongating embryo Ce
@@ -200,7 +200,7 @@ relationship: starts_at_end_of WBls:0000019 ! 2-fold embryo Ce
 [Term]
 id: WBls:0000021
 name: fully-elongated embryo Ce
-def: "620-800min(hatch) after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. A stage after elongation is over. The last stage of embryogenesis. Also called pre-hatched embryo, late embryo or morphogenetic embryo." [WB:wjc]
+def: "The C. elegans life stage spanning 620-800min(hatch) after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. A stage after elongation is over. The last stage of embryogenesis. Also called pre-hatched embryo, late embryo or morphogenetic embryo." [WB:wjc]
 synonym: "fully-elongated embryo" BROAD []
 synonym: "late embryo" EXACT []
 synonym: "morphogenetic stage" EXACT []
@@ -634,7 +634,7 @@ relationship: starts_at_end_of WBls:0000069 ! 4-7 days post-L4 adult hermaphrodi
 [Term]
 id: WBls:0000071
 name: 8-cell embryo Ce
-def: "~50 min after first cleavage at 20 Centigrade.  Contains 8 cells." [WB:wjc]
+def: "The C. elegans life stage spanning ~50 min after first cleavage at 20 Centigrade.  Contains 8 cells." [WB:wjc]
 synonym: "8-cell embryo" BROAD []
 is_a: WBls:0000813 ! C. elegans life stage occurring during blastula embryo
 is_a: WBls:0000823 ! C. elegans life stage by number of cells
@@ -644,7 +644,7 @@ relationship: starts_at_end_of WBls:0000008 ! 4-cell embryo Ce
 [Term]
 id: WBls:0000072
 name: 12-cell embryo Ce
-def: "~55 min after first cleavage at 20 Centigrade.  Contains 12 cells." [WB:wjc]
+def: "The C. elegans life stage spanning ~55 min after first cleavage at 20 Centigrade.  Contains 12 cells." [WB:wjc]
 synonym: "12-cell embryo" BROAD []
 is_a: WBls:0000813 ! C. elegans life stage occurring during blastula embryo
 is_a: WBls:0000823 ! C. elegans life stage by number of cells
@@ -838,7 +838,7 @@ creation_date: 2012-10-15T13:19:10Z
 [Term]
 id: WBls:0000090
 name: 96-cell embryo Ce
-def: "155-165 min after first cleavage at 20 Centigrade. Contains 96 cells." [WB:dr]
+def: "The C. elegans life stage spanning 155-165 min after first cleavage at 20 Centigrade. Contains 96 cells." [WB:dr]
 synonym: "96-cell embryo" BROAD []
 is_a: WBls:0000814 ! C. elegans life stage occurring during gastrulation
 is_a: WBls:0000823 ! C. elegans life stage by number of cells

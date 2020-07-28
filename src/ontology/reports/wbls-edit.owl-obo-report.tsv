@@ -14,41 +14,4 @@ WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115
 WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115		
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
-INFO	lowercase_definition	WBls:0000004	IAO:0000115	0-350min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 560 cells. From start of first cleavage till cleavage is over.	
-INFO	lowercase_definition	WBls:0000005	IAO:0000115	0-100min after first cleavage at 20 Centigrade. Proliferate from 1 cell to 28 cells. From first cleavage till the start of gastrulation.	
-INFO	lowercase_definition	WBls:0000007	IAO:0000115	0-20min after first cleavage at 20 Centigrade.  Contains 2 cells.	
-INFO	lowercase_definition	WBls:0000008	IAO:0000115	20-40min after first cleavage at 20 Centigrade.  Contains 4 cells.	
-INFO	lowercase_definition	WBls:0000009	IAO:0000115	100-105 min after first cleaveage at 20 Centigrade. Contains 28 cells.	
-INFO	lowercase_definition	WBls:0000010	IAO:0000115	100-290min after first cleavage at 20 Centigrade. Proliferate from 28 cells to 421  cells. Referring to the whole period of gastrulation.	
-INFO	lowercase_definition	WBls:0000011	IAO:0000115	120-135 min after first cleavage at 20 Centigrade. Contains 51 cells.	
-INFO	lowercase_definition	WBls:0000012	IAO:0000115	145-150 min after first cleavage at 20 Centigrade. Contains 88 cells.	
-INFO	lowercase_definition	WBls:0000013	IAO:0000115	290-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage when embryo just finished gastrulation and is enclosing.	
-INFO	lowercase_definition	WBls:0000014	IAO:0000115	210-350min after first cleavage at 20 Centigrade. Proliferate from 421 cells to 560 cells. The stage before the fast cleavage of cells finishes.	
-INFO	lowercase_definition	WBls:0000015	IAO:0000115	350-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The stage that embryo starts elongation till elongation is over.	
-INFO	lowercase_definition	WBls:0000016	IAO:0000115	350-390min after first cleavage at 20 Centigrade.  Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. Emrbyo elongation started but have not formed comma shape yet. The shape of embryo looks like a lima bean. A stage right before comma embryo. Also called lima embryo or lima bean stage.	
-INFO	lowercase_definition	WBls:0000017	IAO:0000115	390-420min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo looks like a comma. A stage between bean embryo and 1.5-fold embryo.	
-INFO	lowercase_definition	WBls:0000018	IAO:0000115	420-460min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and fold back 50%. A stage between comma embryo and 2-fold embryo.	
-INFO	lowercase_definition	WBls:0000019	IAO:0000115	460-520min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and double fold. A stage between 1.5-fold embryo and 3-fold embryo.	
-INFO	lowercase_definition	WBls:0000020	IAO:0000115	520-620min after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. The shape of embryo is elongated and tripple fold. A stage between 2-fold embryo and fully-elongated embryo. Also called pretzel embryo or pretzel stage.	
-INFO	lowercase_definition	WBls:0000021	IAO:0000115	620-800min(hatch) after first cleavage at 20 Centigrade. Cell number remains at ~560 cells, with some new cells generated and some cells go through programmed cell death. A stage after elongation is over. The last stage of embryogenesis. Also called pre-hatched embryo, late embryo or morphogenetic embryo.	
-INFO	lowercase_definition	WBls:0000071	IAO:0000115	~50 min after first cleavage at 20 Centigrade.  Contains 8 cells.	
-INFO	lowercase_definition	WBls:0000072	IAO:0000115	~55 min after first cleavage at 20 Centigrade.  Contains 12 cells.	
-INFO	lowercase_definition	WBls:0000090	IAO:0000115	155-165 min after first cleavage at 20 Centigrade. Contains 96 cells.	
 INFO	missing_superclass	WBls:0000075	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000805	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000806	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000807	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000808	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000809	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000810	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000811	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000812	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000813	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000814	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000815	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000816	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000817	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000818	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000819	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000820	rdfs:subClassOf		
-INFO	missing_superclass	WBls:0000821	rdfs:subClassOf		
