@@ -3,8 +3,6 @@ WARN	missing_definition	BFO:0000050	IAO:0000115
 WARN	missing_definition	BFO:0000062	IAO:0000115		
 WARN	missing_definition	IAO:0000115	IAO:0000115		
 WARN	missing_definition	RO:0002087	IAO:0000115		
-WARN	missing_definition	WBls:0000667	IAO:0000115		
-WARN	missing_definition	WBls:0000668	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
 WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115		
