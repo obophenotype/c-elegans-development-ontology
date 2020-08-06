@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2020-07-28/wbls-simple.owl
+data-version: wbls/releases/2020-08-06/wbls-simple.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -7727,6 +7727,7 @@ creation_date: 2014-11-25T09:50:35Z
 [Term]
 id: WBls:0000667
 name: nodular microfilaria
+def: "Microfilaria larvae found in nodules and ulcers." [PMID:1796232, WB:WBPerson4055]
 synonym: "nodular microfilariae" EXACT []
 synonym: "nodular microfilariae nematode" EXACT []
 is_a: WBls:0000666 ! unsheathed microfilaria
@@ -7736,6 +7737,7 @@ creation_date: 2014-11-25T09:52:54Z
 [Term]
 id: WBls:0000668
 name: skin microfilaria
+def: "Microfilaria larvae found subcutaneously" [PMID:20772951, PMID:7797912, WB:WBPerson4055]
 synonym: "skin microfilariae" EXACT []
 is_a: WBls:0000666 ! unsheathed microfilaria
 created_by: danielaraciti
