@@ -799,6 +799,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000823>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000824>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000825>))
 Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000826>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000827>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000828>))
+Declaration(Class(<http://purl.obolibrary.org/obo/WBls_0000829>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002087>))
@@ -877,7 +880,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#sho
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part_of)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/BFO_0000050> "BFO:0000050"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000050> "worm_development"^^xsd:string)
@@ -886,7 +889,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part_of"^^xsd:string)
 TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
 
-# Object Property: <http://purl.obolibrary.org/obo/BFO_0000062> (preceded by)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000062> (preceded_by)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/BFO_0000062> "BFO:0000062"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000062> "worm_development"^^xsd:string)
@@ -895,7 +898,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000062> "preceded_by"^^xsd:string)
 TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000062>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002087> (immediately preceded by)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002087> (starts_at_end_of)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002087> "RO:0002087"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002087> "worm_development"^^xsd:string)
@@ -1469,14 +1472,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000051> "po
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000051> <http://purl.obolibrary.org/obo/WBls_0000824>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000034>))
 
-# Class: <http://purl.obolibrary.org/obo/WBls_0000052> (post dauer stage Ce)
+# Class: <http://purl.obolibrary.org/obo/WBls_0000052> (post dauer L3 stage Ce)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000052> "The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet."^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/WBls_0000052> "post dauer stage"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27417559"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:wjc"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000052> "The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000052> "PDL3"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000052> "worm_development"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000052> "WBls:0000052"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000052> "post dauer stage Ce"^^xsd:string)
-SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000052> <http://purl.obolibrary.org/obo/WBls_0000825>)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27417559"^^xsd:string) rdfs:isDefinedBy <http://purl.obolibrary.org/obo/WBls_0000052> "\"By ~10-12 hours after stimulation to recovery at 20 degrees Celsius, or ~7-8 hours at 25 degrees Celsius, they reach the  PDL3  (post-dauer  L3  stage),  where  cell  division  and  development  have  resumed.  Cell  fates,  including  cell divisions and expression of cell fate markers, are equivalent between L3 and PDL3 stages (Liu and Ambros, 1991; Euling  and  Ambros,  1996;  Braendle  and  Félix,  2008;  Karp  and  Greenwald,  2013).  However,  no  molt  occurs between dauer and PDL3. Thus, dauer alae are still visible on the cuticle, although more difficult to see because they become stretched as the larva loses radial constriction and begins to grow (Cassada and Russell, 1975; Riddle et al.,1997).\""^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000052> "post dauer L3 stage Ce"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000052> <http://purl.obolibrary.org/obo/WBls_0000827>)
 SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
 
 # Class: <http://purl.obolibrary.org/obo/WBls_0000053> (L2d-L3 molt Ce)
@@ -10627,6 +10631,35 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000826> "WBls:0000826"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000826> "obsolete set of worm life stages"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/WBls_0000826> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000827> (post dauer stage Ce)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27417559"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000827> "A C. elegans life stage that occurs after the animal has recovered from the dauer diapause. This includes the post dauer L3 (PDL3) stage, the post dauer L4 (PDL4) stage, and post dauer adult stage."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000827> "worm_development"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000827> "WBls:0000827"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000827> "post dauer stage Ce"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000827> <http://purl.obolibrary.org/obo/WBls_0000825>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000827> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000022>))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000828> (post dauer L4 stage Ce)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27417559"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000828> "A C. elegans L4 larval life stage that occurs after the animal has recovered from the dauer diapause."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/WBls_0000828> "PDL4"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000828> "worm_development"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000828> "WBls:0000828"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27417559"^^xsd:string) rdfs:isDefinedBy <http://purl.obolibrary.org/obo/WBls_0000828> "\"Larvae molt from PDL3 to the PDL4 stage approximately 16 hours after stimulation to recover from dauer at 20 degrees Celsius, or 12 hours after stimulation to recover at 25 degrees Celsius (Figure 3) (Cassada and Russell, 1975; Reape and Burnell,1990). PDL4 larvae are morphologically indistinguishable from L4 larvae, at least at the gross level. Similarly, PDadults appear identical to adults that developed continuously. However, subtle differences do exist. For example,some changes in muscle arm and neuronal cell structure persist in post-dauer stages (Dixon et al., 2008; Schroeder et al., 2013). Interestingly, this apparent similarity between post-dauer and continuously developed animals belies a number of changes at the level of expression of protein coding and small RNA coding genes, as well as changes in chromatin structure (Hall et al., 2010; Karp et al., 2011; Hall et al., 2013).\""^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000828> "post dauer L4 stage Ce"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000828> <http://purl.obolibrary.org/obo/WBls_0000827>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000828> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/WBls_0000023>))
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000829> (post dauer adult stage Ce)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27417559"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "WB:WBPerson2987"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/WBls_0000829> "A C. elegans adult life stage that occurs after the animal has recovered from the dauer diapause."^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/WBls_0000829> "worm_development"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/WBls_0000829> "WBls:0000829"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/WBls_0000829> "post dauer adult stage Ce"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000829> <http://purl.obolibrary.org/obo/WBls_0000041>)
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000829> <http://purl.obolibrary.org/obo/WBls_0000827>)
 
 
 )
