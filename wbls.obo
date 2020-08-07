@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2020-08-06/wbls-simple.owl
+data-version: wbls/releases/2020-08-07/wbls-simple.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -322,7 +322,7 @@ name: postdauer-L4 molt Ce
 def: "The stage when an animal shifts from post dauer stage to L4 larva. It includes the synthesis of new cuticle, cease of phrayngeal pumping during a lethargus stage, and the shed off of old cuticle." [WB:wjc]
 synonym: "postdauer-L4 molt" BROAD []
 is_a: WBls:0000824 ! C. elegans life stage occurring during larval molt
-relationship: part_of WBls:0000052 ! post dauer stage Ce
+relationship: part_of WBls:0000052 ! post dauer L3 stage Ce
 
 [Term]
 id: WBls:0000035
@@ -477,11 +477,13 @@ relationship: part_of WBls:0000034 ! postdauer-L4 molt Ce
 
 [Term]
 id: WBls:0000052
-name: post dauer stage Ce
-def: "The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet." [WB:wjc]
-synonym: "post dauer stage" BROAD []
+name: post dauer L3 stage Ce
+def: "The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet." [PMID:27417559, WB:wjc]
+synonym: "PDL3" EXACT []
 is_a: WBls:0000817 ! C. elegans life stage occurring during larval stage
+is_a: WBls:0000827 ! post dauer stage Ce
 relationship: part_of WBls:0000023 ! larva Ce
+property_value: isDefinedBy "\"By ~10-12 hours after stimulation to recovery at 20 degrees Celsius, or ~7-8 hours at 25 degrees Celsius, they reach the  PDL3  (post-dauer  L3  stage),  where  cell  division  and  development  have  resumed.  Cell  fates,  including  cell divisions and expression of cell fate markers, are equivalent between L3 and PDL3 stages (Liu and Ambros, 1991; Euling  and  Ambros,  1996;  Braendle  and  Félix,  2008;  Karp  and  Greenwald,  2013).  However,  no  molt  occurs between dauer and PDL3. Thus, dauer alae are still visible on the cuticle, although more difficult to see because they become stretched as the larva loses radial constriction and begins to grow (Cassada and Russell, 1975; Riddle et al.,1997).\"" xsd:string {xref="PMID:27417559"}
 
 [Term]
 id: WBls:0000053
@@ -8726,6 +8728,30 @@ id: WBls:0000826
 name: obsolete set of worm life stages
 def: "OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans" [WB:WBPerson2987]
 is_obsolete: true
+
+[Term]
+id: WBls:0000827
+name: post dauer stage Ce
+def: "A C. elegans life stage that occurs after the animal has recovered from the dauer diapause. This includes the post dauer L3 (PDL3) stage, the post dauer L4 (PDL4) stage, and post dauer adult stage." [PMID:27417559, WB:WBPerson2987]
+is_a: WBls:0000804 ! C. elegans life stage occurring post embryogenesis
+relationship: part_of WBls:0000022 ! postembryonic Ce
+
+[Term]
+id: WBls:0000828
+name: post dauer L4 stage Ce
+def: "A C. elegans L4 larval life stage that occurs after the animal has recovered from the dauer diapause." [PMID:27417559, WB:WBPerson2987]
+synonym: "PDL4" EXACT []
+is_a: WBls:0000817 ! C. elegans life stage occurring during larval stage
+is_a: WBls:0000827 ! post dauer stage Ce
+relationship: part_of WBls:0000023 ! larva Ce
+property_value: isDefinedBy "\"Larvae molt from PDL3 to the PDL4 stage approximately 16 hours after stimulation to recover from dauer at 20 degrees Celsius, or 12 hours after stimulation to recover at 25 degrees Celsius (Figure 3) (Cassada and Russell, 1975; Reape and Burnell,1990). PDL4 larvae are morphologically indistinguishable from L4 larvae, at least at the gross level. Similarly, PDadults appear identical to adults that developed continuously. However, subtle differences do exist. For example,some changes in muscle arm and neuronal cell structure persist in post-dauer stages (Dixon et al., 2008; Schroeder et al., 2013). Interestingly, this apparent similarity between post-dauer and continuously developed animals belies a number of changes at the level of expression of protein coding and small RNA coding genes, as well as changes in chromatin structure (Hall et al., 2010; Karp et al., 2011; Hall et al., 2013).\"" xsd:string {xref="PMID:27417559"}
+
+[Term]
+id: WBls:0000829
+name: post dauer adult stage Ce
+def: "A C. elegans adult life stage that occurs after the animal has recovered from the dauer diapause." [PMID:27417559, WB:WBPerson2987]
+is_a: WBls:0000041 ! adult Ce
+is_a: WBls:0000827 ! post dauer stage Ce
 
 [Typedef]
 id: RO:0002086

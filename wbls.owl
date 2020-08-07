@@ -16,7 +16,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wbls.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2020-08-06/wbls.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2020-08-07/wbls.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/WBls_0000075"/>
         <dc:description>Ontology about the development and life stages of the C. elegans</dc:description>
         <dc:title>C. elegans Development Ontology</dc:title>
@@ -377,6 +377,20 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+        <obo:IAO_0000589>is defined by</obo:IAO_0000589>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000589"/>
+        <owl:annotatedTarget>is defined by</owl:annotatedTarget>
+        <rdfs:comment>This is an experimental annotation</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -3859,8 +3873,8 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/WBls_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000817"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000827"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -3868,16 +3882,24 @@ For example, A and B may be gene products and binding of B by A positively regul
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post dauer stage</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDL3</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000052</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post dauer stage Ce</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;By ~10-12 hours after stimulation to recovery at 20 degrees Celsius, or ~7-8 hours at 25 degrees Celsius, they reach the  PDL3  (post-dauer  L3  stage),  where  cell  division  and  development  have  resumed.  Cell  fates,  including  cell divisions and expression of cell fate markers, are equivalent between L3 and PDL3 stages (Liu and Ambros, 1991; Euling  and  Ambros,  1996;  Braendle  and  Félix,  2008;  Karp  and  Greenwald,  2013).  However,  no  molt  occurs between dauer and PDL3. Thus, dauer alae are still visible on the cuticle, although more difficult to see because they become stretched as the larva loses radial constriction and begins to grow (Cassada and Russell, 1975; Riddle et al.,1997).&quot;</rdfs:isDefinedBy>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post dauer L3 stage Ce</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000052"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27417559</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:wjc</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;By ~10-12 hours after stimulation to recovery at 20 degrees Celsius, or ~7-8 hours at 25 degrees Celsius, they reach the  PDL3  (post-dauer  L3  stage),  where  cell  division  and  development  have  resumed.  Cell  fates,  including  cell divisions and expression of cell fate markers, are equivalent between L3 and PDL3 stages (Liu and Ambros, 1991; Euling  and  Ambros,  1996;  Braendle  and  Félix,  2008;  Karp  and  Greenwald,  2013).  However,  no  molt  occurs between dauer and PDL3. Thus, dauer alae are still visible on the cuticle, although more difficult to see because they become stretched as the larva loses radial constriction and begins to grow (Cassada and Russell, 1975; Riddle et al.,1997).&quot;</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27417559</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -28639,6 +28661,86 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000826"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSBSOLETE: A set of life stages of the nematode Caenorhabditis elegans</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBls_0000827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000804"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBls_0000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs after the animal has recovered from the dauer diapause. This includes the post dauer L3 (PDL3) stage, the post dauer L4 (PDL4) stage, and post dauer adult stage.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000827</oboInOwl:id>
+        <rdfs:label xml:lang="en">post dauer stage Ce</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000827"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans life stage that occurs after the animal has recovered from the dauer diapause. This includes the post dauer L3 (PDL3) stage, the post dauer L4 (PDL4) stage, and post dauer adult stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27417559</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBls_0000828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000817"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000827"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/WBls_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans L4 larval life stage that occurs after the animal has recovered from the dauer diapause.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDL4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000828</oboInOwl:id>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Larvae molt from PDL3 to the PDL4 stage approximately 16 hours after stimulation to recover from dauer at 20 degrees Celsius, or 12 hours after stimulation to recover at 25 degrees Celsius (Figure 3) (Cassada and Russell, 1975; Reape and Burnell,1990). PDL4 larvae are morphologically indistinguishable from L4 larvae, at least at the gross level. Similarly, PDadults appear identical to adults that developed continuously. However, subtle differences do exist. For example,some changes in muscle arm and neuronal cell structure persist in post-dauer stages (Dixon et al., 2008; Schroeder et al., 2013). Interestingly, this apparent similarity between post-dauer and continuously developed animals belies a number of changes at the level of expression of protein coding and small RNA coding genes, as well as changes in chromatin structure (Hall et al., 2010; Karp et al., 2011; Hall et al., 2013).&quot;</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">post dauer L4 stage Ce</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000828"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans L4 larval life stage that occurs after the animal has recovered from the dauer diapause.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27417559</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000828"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Larvae molt from PDL3 to the PDL4 stage approximately 16 hours after stimulation to recover from dauer at 20 degrees Celsius, or 12 hours after stimulation to recover at 25 degrees Celsius (Figure 3) (Cassada and Russell, 1975; Reape and Burnell,1990). PDL4 larvae are morphologically indistinguishable from L4 larvae, at least at the gross level. Similarly, PDadults appear identical to adults that developed continuously. However, subtle differences do exist. For example,some changes in muscle arm and neuronal cell structure persist in post-dauer stages (Dixon et al., 2008; Schroeder et al., 2013). Interestingly, this apparent similarity between post-dauer and continuously developed animals belies a number of changes at the level of expression of protein coding and small RNA coding genes, as well as changes in chromatin structure (Hall et al., 2010; Karp et al., 2011; Hall et al., 2013).&quot;</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27417559</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/WBls_0000829 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/WBls_0000829">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000041"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/WBls_0000827"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans adult life stage that occurs after the animal has recovered from the dauer diapause.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">worm_development</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WBls:0000829</oboInOwl:id>
+        <rdfs:label xml:lang="en">post dauer adult stage Ce</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/WBls_0000829"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C. elegans adult life stage that occurs after the animal has recovered from the dauer diapause.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27417559</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WB:WBPerson2987</oboInOwl:hasDbXref>
     </owl:Axiom>
     
