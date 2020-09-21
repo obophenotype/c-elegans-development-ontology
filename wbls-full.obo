@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2020-08-07/wbls-full.owl
+data-version: wbls/releases/2020-09-21/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -597,6 +597,7 @@ relationship: part_of WBls:0000034 ! postdauer-L4 molt Ce
 id: WBls:0000052
 name: post dauer L3 stage Ce
 def: "The stage right after an animal recovered from dauer but has not started transformation to L4 larva yet." [PMID:27417559, WB:wjc]
+synonym: "dauer exit" EXACT []
 synonym: "PDL3" EXACT []
 is_a: WBls:0000817 ! C. elegans life stage occurring during larval stage
 is_a: WBls:0000827 ! post dauer stage Ce
