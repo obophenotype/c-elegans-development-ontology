@@ -17933,11 +17933,11 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2021-02-09"
+            "val": "2021-04-09"
           }
         ],
         "subsets": [],
-        "version": "http://purl.obolibrary.org/obo/wbls/releases/2021-02-09/wbls.json",
+        "version": "http://purl.obolibrary.org/obo/wbls/releases/2021-04-09/wbls.json",
         "xrefs": []
       },
       "nodes": [
@@ -18876,7 +18876,6 @@
             },
             "subsets": [
               "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
-              "http://purl.obolibrary.org/obo/valid_for_go_gp2term",
               "http://purl.obolibrary.org/obo/valid_for_go_ontology",
               "http://purl.obolibrary.org/obo/valid_for_gocam"
             ]
@@ -18911,7 +18910,6 @@
             },
             "subsets": [
               "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
-              "http://purl.obolibrary.org/obo/valid_for_go_gp2term",
               "http://purl.obolibrary.org/obo/valid_for_go_ontology",
               "http://purl.obolibrary.org/obo/valid_for_gocam"
             ]
@@ -18946,7 +18944,6 @@
             },
             "subsets": [
               "http://purl.obolibrary.org/obo/valid_for_go_annotation_extension",
-              "http://purl.obolibrary.org/obo/valid_for_go_gp2term",
               "http://purl.obolibrary.org/obo/valid_for_go_ontology",
               "http://purl.obolibrary.org/obo/valid_for_gocam"
             ]
