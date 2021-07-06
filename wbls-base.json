@@ -10774,11 +10774,11 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2021-04-09"
+            "val": "2021-07-06"
           }
         ],
         "subsets": [],
-        "version": "http://purl.obolibrary.org/obo/wbls/releases/2021-04-09/wbls-base.json",
+        "version": "http://purl.obolibrary.org/obo/wbls/releases/2021-07-06/wbls-base.json",
         "xrefs": []
       },
       "nodes": [
