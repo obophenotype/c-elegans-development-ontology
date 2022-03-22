@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2021-12-08/wbls-full.owl
+data-version: wbls/releases/2022-03-22/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -17,7 +17,7 @@ property_value: http://purl.org/dc/elements/1.1/description "Ontology about the 
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2021-12-08" xsd:string
+property_value: owl:versionInfo "2022-03-22" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -131,6 +131,12 @@ is_a: GO:0003824 ! catalytic activity
 id: GO:0016772
 name: transferase activity, transferring phosphorus-containing groups
 is_a: GO:0016740 ! transferase activity
+
+[Term]
+id: PATO:0000001
+name: quality
+is_a: BFO:0000020 ! specifically dependent continuant
+property_value: IAO:0000589 "quality (PATO)" xsd:string
 
 [Term]
 id: WBls:0000001
@@ -10690,11 +10696,38 @@ name: utilizes
 def: "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." []
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
 property_value: IAO:0000117 "Asiyah Lin" xsd:string
-property_value: IAO:0000117 "Bill Duncan (https://orcid.org/0000-0001-9625-1899)" xsd:string
+property_value: IAO:0000117 "https://orcid.org/0000-0001-9625-1899 Bill Duncan" xsd:string
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
 holds_over_chain: RO:0002215 RO:0002233
 creation_date: 2021-11-08
+
+[Typedef]
+id: RO:0019000
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+domain: BFO:0000015 ! process
+range: PATO:0000001 ! quality
+holds_over_chain: RO:0002211 RO:0019000
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0019001
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002213 RO:0019001
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0019002
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002212 RO:0019001
+holds_over_chain: RO:0002213 RO:0019002
+is_a: RO:0019000 ! regulates characteristic
 
 [Typedef]
 id: part_of
