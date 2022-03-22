@@ -13700,11 +13700,11 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2021-12-08"
+            "val": "2022-03-22"
           }
         ],
         "subsets": [],
-        "version": "http://purl.obolibrary.org/obo/wbls/releases/2021-12-08/wbls-simple.json",
+        "version": "http://purl.obolibrary.org/obo/wbls/releases/2022-03-22/wbls-simple.json",
         "xrefs": []
       },
       "nodes": [
