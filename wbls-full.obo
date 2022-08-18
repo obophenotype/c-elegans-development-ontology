@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2022-06-21/wbls-full.owl
+data-version: wbls/releases/2022-08-18/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -17,7 +17,7 @@ property_value: http://purl.org/dc/elements/1.1/description "Ontology about the 
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2022-06-21" xsd:string
+property_value: owl:versionInfo "2022-08-18" xsd:string
 
 [Term]
 id: BFO:0000002
