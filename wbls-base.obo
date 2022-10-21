@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2022-09-22/wbls-base.owl
+data-version: wbls/releases/2022-10-21/wbls-base.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -12,7 +12,7 @@ property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development On
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2022-09-22" xsd:string
+property_value: owl:versionInfo "2022-10-21" xsd:string
 
 [Term]
 id: WBls:0000001
