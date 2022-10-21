@@ -16,7 +16,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/wbls/wbls-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2022-09-22/wbls-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/wbls/releases/2022-10-21/wbls-full.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/WBls_0000075"/>
         <dc:description>Ontology about the development and life stages of the C. elegans</dc:description>
         <dc:title>C. elegans Development Ontology</dc:title>
@@ -28,7 +28,7 @@
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chris-grove</oboInOwl:saved-by>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Editors: Wen J. Chen &amp; Daniela Raciti, Raymond Lee, Chris Grove, WormBase, Caltech. Jane Lomax, Wellcome Trust Sanger Institute.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Version: 1.04</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-09-22</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-21</owl:versionInfo>
     </owl:Ontology>
     
 
