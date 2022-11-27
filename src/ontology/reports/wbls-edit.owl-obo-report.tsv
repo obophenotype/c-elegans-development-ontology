@@ -1,3 +1,2 @@
 Level	Rule Name	Subject	Property	Value
-WARN	duplicate_label_synonym	cysticercoid stage	has_exact_synonym	cysticercoid stage
 INFO	missing_superclass	worm life stage	rdfs:subClassOf	

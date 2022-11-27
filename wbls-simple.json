@@ -13697,10 +13697,10 @@
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2022-10-21"
+            "val": "2022-11-27"
           }
         ],
-        "version": "http://purl.obolibrary.org/obo/wbls/releases/2022-10-21/wbls-simple.json"
+        "version": "http://purl.obolibrary.org/obo/wbls/releases/2022-11-27/wbls-simple.json"
       },
       "nodes": [
         {
@@ -37684,13 +37684,7 @@
               "xrefs": [
                 "WB:jl"
               ]
-            },
-            "synonyms": [
-              {
-                "pred": "hasExactSynonym",
-                "val": "cysticercoid stage"
-              }
-            ]
+            }
           },
           "type": "CLASS"
         },
