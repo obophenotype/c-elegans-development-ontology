@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2022-10-21/wbls-base.owl
+data-version: wbls/releases/2022-11-27/wbls-base.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -12,7 +12,7 @@ property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development On
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2022-10-21" xsd:string
+property_value: owl:versionInfo "2022-11-27" xsd:string
 
 [Term]
 id: WBls:0000001
@@ -7679,7 +7679,6 @@ creation_date: 2016-03-17T15:02:35Z
 id: WBls:0000717
 name: cysticercoid stage
 def: "A larval stage of some cestodes, including Hymenolepis sp. The cysticercoid is a type of cyst that is found in free form as well as being tissue-enclosed." [WB:jl]
-synonym: "cysticercoid stage" EXACT []
 is_a: WBls:0000712 ! Cestoda life stage
 relationship: part_of WBls:0000716 ! metacestode
 created_by: jl16

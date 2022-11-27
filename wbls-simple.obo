@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2022-10-21/wbls-simple.owl
+data-version: wbls/releases/2022-11-27/wbls-simple.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -8254,7 +8254,6 @@ creation_date: 2016-03-17T15:02:35Z
 id: WBls:0000717
 name: cysticercoid stage
 def: "A larval stage of some cestodes, including Hymenolepis sp. The cysticercoid is a type of cyst that is found in free form as well as being tissue-enclosed." [WB:jl]
-synonym: "cysticercoid stage" EXACT []
 is_a: WBls:0000712 ! Cestoda life stage
 relationship: part_of WBls:0000716 ! metacestode
 created_by: jl16
