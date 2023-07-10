@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2023-05-17/wbls-simple.owl
+data-version: wbls/releases/2023-07-10/wbls-simple.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -8803,6 +8803,7 @@ property_value: RO:0040042 BFO:0000031
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
 property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Part_of" xsd:anyURI
 is_transitive: true
 is_a: RO:0002131 ! overlaps
 
