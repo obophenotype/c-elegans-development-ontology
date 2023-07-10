@@ -37,11 +37,77 @@
         "val" : "Version: 1.04"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-05-17"
+        "val" : "2023-07-10"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2023-05-17/wbls.json"
+      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2023-07-10/wbls.json"
     },
     "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "lbl" : "pending final vetting",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "pending final vetting"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000078",
+      "lbl" : "curation status specification",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "curation status specification"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Bill Bug"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI_0000266"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000428",
+      "lbl" : "requires discussion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "requires discussion"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "group:OBI"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
       "lbl" : "continuant",
       "type" : "CLASS",
@@ -65,8 +131,9 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."
-        }
+          "val" : "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"
+        },
+        "comments" : [ "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000015",
@@ -74,8 +141,9 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t."
-        }
+          "val" : "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"
+        },
+        "comments" : [ "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000016",
@@ -100,8 +168,9 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same."
-        }
+          "val" : "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"
+        },
+        "comments" : [ "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000023",
@@ -200,6 +269,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://www.obofoundry.org/ro/#OBO_REL:part_of"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Part_of"
         } ]
       }
     }, {
@@ -290,23 +362,12 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CARO_0000000",
-      "lbl" : "anatomical entity",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.",
-          "xrefs" : [ "CAROC:Brownsville2014" ]
-        },
-        "comments" : [ "Following BFO, material anatomical entities may have immaterial parts (the lumen of your stomach is part of your stomach).  The granularity limit follows the limits set by the Gene Ontology on the granularity limit for GO:cellular_component. Note that substances produced by an organism (sweat, feaces, urine) do not need to be part of an organism to qualify as an anatomical structure." ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0003674",
       "lbl" : "molecular_function",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.",
+          "val" : "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.",
           "xrefs" : [ "GOC:pdt" ]
         },
         "comments" : [ "Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex." ],
@@ -321,7 +382,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.",
+          "val" : "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.",
           "xrefs" : [ "GOC:pdt" ]
         },
         "comments" : [ "Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this." ],
@@ -370,17 +431,164 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
+      "lbl" : "example to be eventually removed",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "example to be eventually removed"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "lbl" : "definition",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000120",
+      "lbl" : "metadata complete",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "metadata complete"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000121",
+      "lbl" : "organizational term",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "Term created to ease viewing/sort terms for development purpose, and will not be included in a release"
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "organizational term"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
+      "lbl" : "ready for release",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\""
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "ready for release"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000123",
+      "lbl" : "metadata incomplete",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "metadata incomplete"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000124",
+      "lbl" : "uncurated",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "Nothing done yet beyond assigning a unique class ID and proposing a preferred term."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "uncurated"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000423",
+      "lbl" : "to be replaced with external ontology term",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "Terms with this status should eventually replaced with a term from another ontology."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "to be replaced with external ontology term"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "group:OBI"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
+      "lbl" : "has ontology root term",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "has ontology root term"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Nicolas Matentzoglu"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
       "lbl" : "term replaced by",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "Use on obsolete terms, relating the term to another term that can be used as a substitute"
+        },
+        "comments" : [ "Add as annotation triples in the granting ontology" ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term replaced by"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
         } ]
       }
     }, {
@@ -662,7 +870,7 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-05-24T09:30:46Z"
@@ -679,7 +887,7 @@
         "comments" : [ "By convention GO molecular functions are classified by their effector function.  Internal regulatory functions are treated as components.  For example, NMDA glutmate receptor activity is a cation channel activity with positive regulatory component 'glutamate binding' and negative regulatory components including 'zinc binding' and 'magnesium binding'." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-05-24T09:31:01Z"
@@ -696,7 +904,7 @@
         "comments" : [ "By convention GO molecular functions are classified by their effector function and internal regulatory functions are treated as components.  So, for example calmodulin has a protein binding activity that has positive regulatory component activity calcium binding activity. Receptor tyrosine kinase activity is a tyrosine kinase activity that has positive regulatory component 'ligand binding'." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-05-24T09:31:17Z"
@@ -710,7 +918,7 @@
         "comments" : [ "A 'has component activity' B if A is A and B are molecular functions (GO_0003674) and A has_component B." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-05-24T09:44:33Z"
@@ -726,7 +934,7 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-05-24T09:49:21Z"
@@ -740,7 +948,7 @@
         "comments" : [ "Process(P2) is directly regulated by process(P1) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-09-17T13:52:24Z"
@@ -753,11 +961,11 @@
       "meta" : {
         "definition" : {
           "val" : "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1.",
-          "xrefs" : [ "GOC:dos" ]
+          "xrefs" : [ "https://orcid.org/0000-0002-7073-9172" ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-09-17T13:52:38Z"
@@ -770,11 +978,11 @@
       "meta" : {
         "definition" : {
           "val" : "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1.",
-          "xrefs" : [ "GOC:dos" ]
+          "xrefs" : [ "https://orcid.org/0000-0002-7073-9172" ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-09-17T13:52:47Z"
@@ -787,12 +995,12 @@
       "meta" : {
         "definition" : {
           "val" : "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity.",
-          "xrefs" : [ "GOC:dos" ]
+          "xrefs" : [ "https://orcid.org/0000-0002-7073-9172" ]
         },
         "comments" : [ "This relation is designed for constructing compound molecular functions, typically in combination with one or more regulatory component activity relations." ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "dos"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2017-09-22T14:14:36Z"
@@ -1126,6 +1334,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "consumes"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Has_input"
         } ]
       }
     }, {
@@ -1222,7 +1433,7 @@
           "val" : "A gene product that has some activity, where that activity may be a part of a pathway or upstream of the pathway."
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://wiki.geneontology.org/index.php/Acts_upstream_of_or_within"
+          "val" : "https://wiki.geneontology.org/Acts_upstream_of_or_within"
         } ]
       }
     }, {
@@ -1257,6 +1468,9 @@
         }, {
           "pred" : "http://purl.org/dc/terms/creator",
           "val" : "https://orcid.org/0000-0002-6601-2165"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Causally_upstream_of,_positive_effect"
         } ]
       }
     }, {
@@ -1274,6 +1488,9 @@
         }, {
           "pred" : "http://purl.org/dc/terms/creator",
           "val" : "https://orcid.org/0000-0002-6601-2165"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Causally_upstream_of,_negative_effect"
         } ]
       }
     }, {
@@ -1372,6 +1589,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
           "val" : "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Enables"
         } ]
       }
     }, {
@@ -1425,7 +1645,7 @@
           "val" : "enables part of"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://wiki.geneontology.org/index.php/Involved_in"
+          "val" : "https://wiki.geneontology.org/Involved_in"
         } ]
       }
     }, {
@@ -1440,6 +1660,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-6601-2165"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Enabled_by"
         } ]
       }
     }, {
@@ -1611,6 +1834,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002579",
           "val" : "http://purl.obolibrary.org/obo/RO_0002213"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Indirectly_positively_regulates"
         } ]
       }
     }, {
@@ -1630,6 +1856,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002579",
           "val" : "http://purl.obolibrary.org/obo/RO_0002212"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Indirectly_negatively_regulates"
         } ]
       }
     }, {
@@ -2212,6 +2441,19 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002610",
+      "lbl" : "correlated with",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A relationship that holds between two entities, where the entities exhibit a statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Groups both positive and negative correlation"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002629",
       "lbl" : "directly positively regulates",
       "type" : "PROPERTY",
@@ -2229,6 +2471,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0004049",
           "val" : "http://purl.obolibrary.org/obo/RO_0002578"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Directly_positively_regulates"
         } ]
       }
     }, {
@@ -2249,6 +2494,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0004050",
           "val" : "http://purl.obolibrary.org/obo/RO_0002578"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Directly_negatively_regulates"
         } ]
       }
     }, {
@@ -2284,7 +2532,7 @@
           "val" : "2018-01-26T23:49:30Z"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://wiki.geneontology.org/index.php/Acts_upstream_of_or_within,_positive_effect"
+          "val" : "https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect"
         } ]
       }
     }, {
@@ -2302,6 +2550,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2018-01-26T23:49:51Z"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect"
         } ]
       }
     }, {
@@ -2324,7 +2575,7 @@
           "val" : "2018-01-26T23:53:14Z"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://wiki.geneontology.org/index.php/Acts_upstream_of,_positive_effect"
+          "val" : "https://wiki.geneontology.org/Acts_upstream_of,_positive_effect"
         } ]
       }
     }, {
@@ -2347,7 +2598,7 @@
           "val" : "2018-01-26T23:53:22Z"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://wiki.geneontology.org/index.php/Acts_upstream_of,_negative_effect"
+          "val" : "https://wiki.geneontology.org/Acts_upstream_of,_negative_effect"
         } ]
       }
     }, {
@@ -2364,6 +2615,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2018-03-13T23:55:05Z"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Causally_upstream_of_or_within,_negative_effect"
         } ]
       }
     }, {
@@ -2380,6 +2634,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2018-03-13T23:55:19Z"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Causally_upstream_of_or_within,_positive_effect"
         } ]
       }
     }, {
@@ -2405,7 +2662,7 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "pg"
+          "val" : "https://orcid.org/0000-0003-1813-6857"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2022-09-26T06:07:17Z"
@@ -2421,7 +2678,7 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "pg"
+          "val" : "https://orcid.org/0000-0003-1813-6857"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2022-09-26T06:08:01Z"
@@ -2457,6 +2714,22 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2021-11-08T12:00:00Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0017003",
+      "lbl" : "positively correlated with",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "A relation between entities in which one increases or decreases as the other does the same."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "directly correlated with"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0003-1909-9269"
         } ]
       }
     }, {
@@ -2496,6 +2769,59 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
           "val" : "https://orcid.org/0000-0002-8688-6599"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "lbl" : "anatomical entity",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.",
+          "xrefs" : [ "FMA:62955", "http://orcid.org/0000-0001-9114-8737" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#common_anatomy", "http://purl.obolibrary.org/obo/uberon/core#upper_level" ],
+        "xrefs" : [ {
+          "val" : "AAO:0010841"
+        }, {
+          "val" : "AEO:0000000"
+        }, {
+          "val" : "BILA:0000000"
+        }, {
+          "val" : "BIRNLEX:6"
+        }, {
+          "val" : "CARO:0000000"
+        }, {
+          "val" : "EHDAA2:0002229"
+        }, {
+          "val" : "FBbt:10000000"
+        }, {
+          "val" : "FMA:62955"
+        }, {
+          "val" : "HAO:0000000"
+        }, {
+          "val" : "MA:0000001"
+        }, {
+          "val" : "NCIT:C12219"
+        }, {
+          "val" : "TAO:0100000"
+        }, {
+          "val" : "TGMA:0001822"
+        }, {
+          "val" : "UMLS:C1515976"
+        }, {
+          "val" : "WBbt:0000100"
+        }, {
+          "val" : "XAO:0000000"
+        }, {
+          "val" : "ZFA:0100000"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
         } ]
       }
     }, {
@@ -20509,7 +20835,22 @@
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
       "lbl" : "has_broad_synonym",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "An alternative label for a class or property which has a more general meaning than the preferred name/primary label."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0001-5208-3432"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/18"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/18"
+        } ]
+      }
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
       "lbl" : "database_cross_reference",
@@ -20517,11 +20858,41 @@
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
       "lbl" : "has_exact_synonym",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "An alternative label for a class or property which has the exact same meaning than the preferred name/primary label."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0001-5208-3432"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/20"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/20"
+        } ]
+      }
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
       "lbl" : "has_narrow_synonym",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "An alternative label for a class or property which has a more specific meaning than the preferred name/primary label."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0001-5208-3432"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/19"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/19"
+        } ]
+      }
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
       "lbl" : "has_obo_format_version",
@@ -20533,7 +20904,22 @@
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "lbl" : "has_related_synonym",
-      "type" : "PROPERTY"
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "An alternative label for a class or property that has been used synonymously with the primary term name, but the usage is not strictly correct."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0001-5208-3432"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000233",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/21"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://github.com/information-artifact-ontology/ontology-metadata/issues/21"
+        } ]
+      }
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
       "lbl" : "shorthand",
@@ -20584,10 +20970,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CARO_0000000",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016301",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0003674"
@@ -20595,6 +20977,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001062",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/WBls_0000001",
       "pred" : "is_a",
@@ -34184,6 +34570,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/WBls_0000827"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000428",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002131"
@@ -34708,6 +35102,10 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0012011"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0017003",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002610"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0019000",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
@@ -34903,8 +35301,8 @@
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002254",
-      "domainClassIds" : [ "http://purl.obolibrary.org/obo/CARO_0000000" ],
-      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/CARO_0000000" ]
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001062" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001062" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002258",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ],
@@ -34915,8 +35313,8 @@
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002384",
-      "domainClassIds" : [ "http://purl.obolibrary.org/obo/CARO_0000000" ],
-      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/CARO_0000000" ]
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001062" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001062" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002434",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
