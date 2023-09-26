@@ -37,9 +37,9 @@
         "val" : "Version: 1.04"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-07-10"
+        "val" : "2023-09-26"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2023-07-10/wbls-full.json"
+      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2023-09-26/wbls-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000125",
@@ -337,7 +337,7 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "preceded_by"
         }, {
-          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "pred" : "http://purl.org/dc/terms/source",
           "val" : "http://www.obofoundry.org/ro/#OBO_REL:preceded_by"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -710,7 +710,7 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "has_participant"
         }, {
-          "pred" : "http://purl.org/dc/elements/1.1/source",
+          "pred" : "http://purl.org/dc/terms/source",
           "val" : "http://www.obofoundry.org/ro/#OBO_REL:has_participant"
         } ]
       }
@@ -2441,19 +2441,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002610",
-      "lbl" : "correlated with",
-      "type" : "PROPERTY",
-      "meta" : {
-        "definition" : {
-          "val" : "A relationship that holds between two entities, where the entities exhibit a statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
-          "val" : "Groups both positive and negative correlation"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002629",
       "lbl" : "directly positively regulates",
       "type" : "PROPERTY",
@@ -2714,22 +2701,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2021-11-08T12:00:00Z"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0017003",
-      "lbl" : "positively correlated with",
-      "type" : "PROPERTY",
-      "meta" : {
-        "definition" : {
-          "val" : "A relation between entities in which one increases or decreases as the other does the same."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "directly correlated with"
-        }, {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0003-1909-9269"
         } ]
       }
     }, {
@@ -35101,10 +35072,6 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0012012",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0012011"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0017003",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002610"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0019000",
       "pred" : "subPropertyOf",
