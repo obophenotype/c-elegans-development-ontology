@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2023-09-26/wbls-full.owl
+data-version: wbls/releases/2024-01-16/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -19,7 +19,7 @@ property_value: http://purl.org/dc/elements/1.1/description "Ontology about the 
 property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license "http://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2023-09-26" xsd:string
+property_value: owl:versionInfo "2024-01-16" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -9874,7 +9874,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 property_value: IAO:0000114 IAO:0000125
 property_value: RO:0001900 RO:0001901
-holds_over_chain: BFO:0000051 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: BFO:0000051 part_of {RO:0002582="true"}
 holds_over_chain: BFO:0000051 RO:0002131
 holds_over_chain: part_of part_of
 is_symmetric: true
@@ -10002,7 +10002,7 @@ def: "c stands in this relationship to p if and only if there exists some p' suc
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has function in" xsd:string
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
-holds_over_chain: RO:0002215 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: RO:0002215 part_of {RO:0002582="true"}
 is_a: RO:0002328 ! functionally related to
 is_a: RO:0002500 ! causal agent in process
 
@@ -10137,7 +10137,7 @@ property_value: IAO:0000118 "inheres in part of" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
-holds_over_chain: RO:0000052 part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: RO:0000052 part_of {RO:0002582="true"}
 is_a: RO:0002502 ! depends on
 transitive_over: part_of ! part_of
 
@@ -10188,7 +10188,7 @@ name: part of structure that is capable of
 def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "false" xsd:boolean
-holds_over_chain: part_of RO:0002215 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+holds_over_chain: part_of RO:0002215 {RO:0002581="true"}
 is_a: RO:0002328 ! functionally related to
 
 [Typedef]
