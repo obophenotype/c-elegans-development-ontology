@@ -1,18 +1,22 @@
 format-version: 1.2
-data-version: wbls/releases/2024-04-09/wbls-base.owl
+data-version: wbls/releases/2024-09-26/wbls-base.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
 default-namespace: worm_development
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+idspace: obda https://w3id.org/obda/vocabulary# 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 remark: Editors: Wen J. Chen & Daniela Raciti, Raymond Lee, Chris Grove, WormBase, Caltech. Jane Lomax, Wellcome Trust Sanger Institute.
 remark: Version: 1.04
 ontology: wbls/wbls-base
-property_value: http://purl.org/dc/elements/1.1/description "Ontology about the development and life stages of the C. elegans" xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "C. elegans Development Ontology" xsd:string
-property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: http://purl.org/dc/terms/license "http://creativecommons.org/licenses/by/4.0/" xsd:string
+property_value: dce:description "Ontology about the development and life stages of the C. elegans" xsd:string
+property_value: dce:title "C. elegans Development Ontology" xsd:string
+property_value: dce:type IAO:8000001
+property_value: dcterms:license "http://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2024-04-09" xsd:string
+property_value: owl:versionInfo "2024-09-26" xsd:string
 
 [Term]
 id: WBls:0000001
