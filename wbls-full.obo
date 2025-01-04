@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2024-09-26/wbls-full.owl
+data-version: wbls/releases/2025-01-04/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -28,7 +28,7 @@ property_value: dce:description "Ontology about the development and life stages 
 property_value: dce:title "C. elegans Development Ontology" xsd:string
 property_value: dcterms:license "http://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2024-09-26" xsd:string
+property_value: owl:versionInfo "2025-01-04" xsd:string
 
 [Term]
 id: BFO:0000002
