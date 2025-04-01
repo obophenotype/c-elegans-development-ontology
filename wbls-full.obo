@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2025-01-04/wbls-full.owl
+data-version: wbls/releases/2025-04-01/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -8,6 +8,8 @@ subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
+subsetdef: human_subset ""
+subsetdef: mouse_subset ""
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 subsetdef: upper_level ""
@@ -28,7 +30,7 @@ property_value: dce:description "Ontology about the development and life stages 
 property_value: dce:title "C. elegans Development Ontology" xsd:string
 property_value: dcterms:license "http://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2025-01-04" xsd:string
+property_value: owl:versionInfo "2025-04-01" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -49,7 +51,7 @@ name: independent continuant
 def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" []
 comment: A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.
 is_a: BFO:0000002 ! continuant
-disjoint_from: BFO:0000020 ! characteristic
+disjoint_from: BFO:0000020 ! specifically dependent continuant
 relationship: part_of BFO:0000004 {all_only="true"} ! independent continuant
 
 [Term]
@@ -67,29 +69,25 @@ disjoint_from: BFO:0000023 ! role
 
 [Term]
 id: BFO:0000017
-name: realizable
 name: realizable entity
 def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
-is_a: BFO:0000020 ! characteristic
+is_a: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000019 ! quality
 relationship: part_of BFO:0000017 {all_only="true"} ! realizable entity
 
 [Term]
 id: BFO:0000019
 name: quality
-is_a: BFO:0000020 ! characteristic
+is_a: BFO:0000020 ! specifically dependent continuant
 relationship: part_of BFO:0000019 {all_only="true"} ! quality
 
 [Term]
 id: BFO:0000020
-name: characteristic
 name: specifically dependent continuant
 def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
 comment: A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.
 is_a: BFO:0000002 ! continuant
-relationship: part_of BFO:0000020 {all_only="true"} ! characteristic
-property_value: seeAlso "https://github.com/OBOFoundry/COB/issues/65" xsd:string
-property_value: seeAlso "https://github.com/oborel/obo-relations/pull/284" xsd:string
+relationship: part_of BFO:0000020 {all_only="true"} ! specifically dependent continuant
 
 [Term]
 id: BFO:0000023
@@ -107,26 +105,24 @@ id: BFO:0000040
 name: material entity
 def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
 is_a: BFO:0000004 ! independent continuant
+property_value: IAO:0000116 "Elucidation: An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." xsd:string
 
 [Term]
 id: GO:0003674
 name: gene product or complex activity
 name: molecular_function
 def: "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs." [GOC:pdt]
-comment: Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.
-comment: This is the same as GO molecular function
+comment: Note that, in addition to forming the root of the molecular function ontology, this term is recommended for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.
 synonym: "molecular function" EXACT []
 is_a: BFO:0000015 ! process
-disjoint_from: GO:0008150 ! biological_process
+property_value: IAO:0000116 "This is the same as GO molecular function" xsd:string
 
 [Term]
 id: GO:0008150
 name: biological process
 name: biological_process
 def: "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." [GOC:pdt]
-def: "A process that emerges from two or more causally-connected macromolecular activities and has evolved to achieve a biological objective." []
-comment: A biological process is an evolved process
-comment: Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.
+comment: Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.
 synonym: "biological process" EXACT []
 synonym: "physiological process" EXACT []
 synonym: "single organism process" RELATED []
@@ -161,13 +157,15 @@ property_value: IAO:0000119 "OBI_0000266" xsd:string
 id: PATO:0000001
 name: quality
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
-is_a: BFO:0000020 ! characteristic
+is_a: BFO:0000020 ! specifically dependent continuant
 
 [Term]
 id: UBERON:0001062
 name: anatomical entity
 def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [FMA:62955, http://orcid.org/0000-0001-9114-8737]
 subset: common_anatomy
+subset: human_subset
+subset: mouse_subset
 subset: upper_level
 xref: AAO:0010841
 xref: AEO:0000000
@@ -9664,7 +9662,7 @@ property_value: IAO:0000116 "A bearer can have many dependents, and its dependen
 property_value: IAO:0000118 "bearer_of" xsd:string
 property_value: IAO:0000118 "is bearer of" xsd:string
 property_value: RO:0001900 RO:0001901
-range: BFO:0000020 ! characteristic
+range: BFO:0000020 ! specifically dependent continuant
 is_inverse_functional: true
 
 [Typedef]
@@ -10066,7 +10064,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 domain: UBERON:0001062 ! anatomical entity
 range: UBERON:0001062 ! anatomical entity
-holds_over_chain: BFO:0000051 RO:0002202
+holds_over_chain: BFO:0000051 RO:0002254
 is_a: RO:0002258 ! developmentally preceded by
 inverse_of: RO:0002255 ! developmentally contributes to
 
@@ -10296,8 +10294,10 @@ is_a: RO:0002384 ! has developmental potential involving
 id: RO:0002387
 name: has potential to develop into
 def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
+comment: This relation has a stronger meaning than merely indicating that X may develop into Y, in that the capability of developing into Y is always present, even if X does not always actually develop into Y. In particular, this means that if Y is restricted to a given taxon T, X is necessarily likewise restricted.
 property_value: IAO:0000114 IAO:0000428
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: seeAlso https://github.com/oborel/obo-relations/issues/810
 is_a: RO:0002384 ! has developmental potential involving
 
 [Typedef]
@@ -10397,6 +10397,7 @@ property_value: IAO:0000118 "influences (processual)" xsd:string
 is_transitive: true
 is_a: RO:0002501 ! causal relation between processes
 inverse_of: RO:0002427 ! causally downstream of or within
+transitive_over: part_of ! part_of
 
 [Typedef]
 id: RO:0002427
@@ -10840,6 +10841,14 @@ property_value: dcterms:contributor https://orcid.org/0000-0002-8688-6599
 holds_over_chain: RO:0002212 RO:0019001
 holds_over_chain: RO:0002213 RO:0019002
 is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0020105
+name: is anatomical entity
+def: "This property only applies to anatomical entities." []
+property_value: dcterms:contributor https://orcid.org/0000-0001-6677-8489
+property_value: dcterms:date "2024-10-29T09:55:07Z" xsd:dateTime
+domain: UBERON:0001062 ! anatomical entity
 
 [Typedef]
 id: part_of
