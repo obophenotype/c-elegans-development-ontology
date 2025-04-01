@@ -40,9 +40,9 @@
         "val" : "Version: 1.04"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-01-04"
+        "val" : "2025-04-01"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2025-01-04/wbls-base.json"
+      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2025-04-01/wbls-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000003",
