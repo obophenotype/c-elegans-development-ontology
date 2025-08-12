@@ -37,9 +37,9 @@
         "val" : "Version: 1.04"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-04-01"
+        "val" : "2025-08-12"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2025-04-01/wbls-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2025-08-12/wbls-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/WBls_0000001",
@@ -18169,7 +18169,7 @@
         "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "David Osumi-Sutherland"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         } ]
       }
     }, {
@@ -18184,7 +18184,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "David Osumi-Sutherland"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "starts_at_end_of"

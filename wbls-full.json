@@ -37,9 +37,9 @@
         "val" : "Version: 1.04"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-04-01"
+        "val" : "2025-08-12"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2025-04-01/wbls-full.json"
+      "version" : "http://purl.obolibrary.org/obo/wbls/releases/2025-08-12/wbls-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
@@ -18907,7 +18907,7 @@
         "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "David Osumi-Sutherland"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         } ]
       }
     }, {
@@ -18922,7 +18922,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "David Osumi-Sutherland"
+          "val" : "https://orcid.org/0000-0002-7073-9172"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "starts_at_end_of"
@@ -18945,9 +18945,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-7073-9172"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "David Osumi-Sutherland"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "ends_at_start_of"
@@ -20727,6 +20724,714 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001569",
+      "lbl" : "Western Australian Mulga Shrublands Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Western Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1310"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1310"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T17:25:21Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001571",
+      "lbl" : "Australasia Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "https://www.worldwildlife.org/biomes/deserts-and-xeric-shrublands"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T17:51:32Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001572",
+      "lbl" : "Tirari-Sturt Stony Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Southern central Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1309"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1309"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T17:52:41Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001573",
+      "lbl" : "Simpson Desert Region",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Eastern central Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1308"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1308"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T17:54:35Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001574",
+      "lbl" : "Pilbara Shrublands Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Western Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1307"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1307"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T17:56:13Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001575",
+      "lbl" : "Carnarvon Xeric Shrublands Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Western coast of Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1301"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1301"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T18:10:52Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001576",
+      "lbl" : "Central Ranges Xeric Shrub Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Central Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1302"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1302"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T18:12:28Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001577",
+      "lbl" : "Gibson Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Western central Australia"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1303"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1303"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T18:15:11Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001578",
+      "lbl" : "The Great Sandy-Tanami Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Northwestern Australia"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1304"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1304"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T18:17:15Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001579",
+      "lbl" : "Great Victoria Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Southern Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1305"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1305"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T18:24:06Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001580",
+      "lbl" : "Nullarbor Plains Xeric Shrubland Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Southern Australia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AA1306"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/aa1306"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-05T18:26:16Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001583",
+      "lbl" : "Afrotropical Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "https://www.worldwildlife.org/biomes/deserts-and-xeric-shrublands"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:01:41Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001584",
+      "lbl" : "Succulent Karoo Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Southern Africa: Southern Namibia into South Africa"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1322"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1322"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:02:37Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001585",
+      "lbl" : "Yemen and Saudi Arabia Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Arabian Peninsula: Yemen and Saudi Arabia"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1321"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1321"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:07:38Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001586",
+      "lbl" : "Yemen, Saudi Arabia, and Oman Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Arabian Peninsula: Yemen, Saudi Arabia, and Oman"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1320"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1320"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:11:38Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001587",
+      "lbl" : "Somali Montane Xeric Woodland Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Somali montane xeric woodlands ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1319"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1319"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "https://orcid.org/0000-0002-4366-3088"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:13:00Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001588",
+      "lbl" : "Socotran Archipelago Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Islands east of the Horn of Africa and south of Yemen Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1318"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1318"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:15:07Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001589",
+      "lbl" : "Red Sea Coastal Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1317"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1317"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:18:55Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001590",
+      "lbl" : "Namibian Savanna Woodland Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1316"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1316"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:20:56Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001591",
+      "lbl" : "Namib Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Africa: Namibia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1315"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1315"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:24:28Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001592",
+      "lbl" : "Nama Karoo Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1314"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1314"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:26:15Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001593",
+      "lbl" : "Masai Xeric Grasslands and Shrublands Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1313"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1313"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:28:43Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001594",
+      "lbl" : "Madagascar Succulent Woodlands Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1312"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1312"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:30:23Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001595",
+      "lbl" : "Madagascar Spiny Thickets Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Madagascar spiny desert ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1311"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1311"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:31:29Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001596",
+      "lbl" : "Kaokoveld Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Africa: Coastal Namibia and Angola Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1310"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1310"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:39:32Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001597",
+      "lbl" : "Kalahari Xeric Savanna Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1309"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1309"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:42:47Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001598",
+      "lbl" : "Ile Europa and Bassas da India Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Southern Africa: Islands about half-way between southern Madagascar and southern Mozambique Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1308"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1308"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:44:54Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001599",
+      "lbl" : "Hobyo Grassland and Shrubland Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "Eastern Africa: Somalia"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1307"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1307"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:46:58Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001600",
+      "lbl" : "Oman and United Arab Emirates Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Arabian Peninsula: Oman and United Arab Emirates Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1306"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1306"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-06T22:54:57Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001601",
+      "lbl" : "Ethiopian Xeric Grasslands and Shrublands Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1305"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1305"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-07T00:08:06Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001602",
+      "lbl" : "Eritrean Coastal Desert Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1304"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1304"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-07T00:11:29Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001603",
+      "lbl" : "East Saharan Montane Xeric Woodland Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "North central Africa: Eastern Chad and small area of western Sudan"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1303"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1303"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-07T00:13:33Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001604",
+      "lbl" : "Oman, Yemen, and Saudi Arabia Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Western Asia: Oman, Yemen, and Saudi Arabia Ecoregion"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:AT1302"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1302"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-07T00:16:12Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001605",
+      "lbl" : "Aldabra Island Xeric Scrub Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "WWF:AT1301"
+        }, {
+          "val" : "https://www.worldwildlife.org/ecoregions/at1301"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-03-07T00:18:09Z"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001626",
+      "lbl" : "Indo-Malay Ecoregion",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-04-26T23:38:50Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "https://www.worldwildlife.org/biomes/deserts-and-xeric-shrublands"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001627",
+      "lbl" : "Thar Desert",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Southern Asia: Western India into Pakistan"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:IM1304"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-04-26T23:40:13Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "https://www.worldwildlife.org/ecoregions/im1304"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001628",
+      "lbl" : "Northwestern Thorn Scrub Forests",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Southern Asia: Eastern India and western Pakistan"
+        } ],
+        "xrefs" : [ {
+          "val" : "WWF:IM1303"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2019-04-27T00:12:51Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+          "val" : "https://www.worldwildlife.org/ecoregions/im1303"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ENVO_01001862",
+      "lbl" : "Solar radiation",
+      "type" : "INDIVIDUAL",
+      "meta" : {
+        "definition" : {
+          "val" : "Stellar radiation emitted from Sol."
+        }
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
       "lbl" : "example to be eventually removed",
       "type" : "INDIVIDUAL",
@@ -20755,7 +21460,7 @@
       "type" : "INDIVIDUAL",
       "meta" : {
         "definition" : {
-          "val" : "Term created to ease viewing/sort terms for development purpose, and will not be included in a release"
+          "val" : "The term was created to ease viewing/sorting terms for development purposes, but will not be included in a release."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
@@ -20862,6 +21567,9 @@
         } ]
       }
     }, {
+      "id" : "https://www.wikidata.org/wiki/Q525",
+      "type" : "INDIVIDUAL"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000111",
       "type" : "PROPERTY",
       "propertyType" : "ANNOTATION"
@@ -20941,21 +21649,8 @@
       "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000700",
-      "lbl" : "has ontology root term",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION",
-      "meta" : {
-        "definition" : {
-          "val" : "Ontology annotation property. Relates an ontology to a term that is a designated root term of the ontology. Display tools like OLS can use terms annotated with this property as the starting point for rendering the ontology class hierarchy. There can be more than one root."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "has ontology root term"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Nicolas Matentzoglu"
-        } ]
-      }
+      "propertyType" : "ANNOTATION"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
       "lbl" : "term replaced by",
@@ -34960,6 +35655,146 @@
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000428",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001569",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001572",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001573",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001574",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001575",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001576",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001577",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001578",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001579",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001580",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001571"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001584",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001585",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001586",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001587",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001588",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001589",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001590",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001591",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001592",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001593",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001594",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001595",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001596",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001597",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001598",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001599",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001600",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001601",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001602",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001603",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001604",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001605",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001583"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001627",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001626"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001628",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001626"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ENVO_01001862",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002608",
+      "obj" : "https://www.wikidata.org/wiki/Q525"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "pred" : "subPropertyOf",
