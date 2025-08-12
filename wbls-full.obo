@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2025-04-01/wbls-full.owl
+data-version: wbls/releases/2025-08-12/wbls-full.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -30,7 +30,7 @@ property_value: dce:description "Ontology about the development and life stages 
 property_value: dce:title "C. elegans Development Ontology" xsd:string
 property_value: dcterms:license "http://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2025-04-01" xsd:string
+property_value: owl:versionInfo "2025-08-12" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -9868,7 +9868,7 @@ id: RO:0002086
 name: ends after
 comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
 subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 is_transitive: true
 is_a: RO:0002222 ! temporally related to
 
@@ -9877,7 +9877,6 @@ id: RO:0002090
 name: immediately precedes
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
 subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
@@ -10909,7 +10908,7 @@ name: immediately preceded by
 name: starts_at_end_of
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
 xref: RO:0002087
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
 is_a: preceded_by ! preceded_by
 inverse_of: RO:0002090 ! immediately precedes

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2025-04-01/wbls-simple.owl
+data-version: wbls/releases/2025-08-12/wbls-simple.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -8761,7 +8761,7 @@ id: RO:0002086
 name: ends after
 comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
 subset: ro-eco
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 is_transitive: true
 
 [Typedef]
@@ -8832,7 +8832,7 @@ name: immediately preceded by
 name: starts_at_end_of
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
 xref: RO:0002087
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
 is_a: preceded_by ! preceded_by
 
