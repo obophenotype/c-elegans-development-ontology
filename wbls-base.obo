@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: wbls/releases/2025-08-12/wbls-base.owl
+data-version: wbls/releases/2026-04-16/wbls-base.owl
 date: 15:11:2017 12:24
 saved-by: chris-grove
 auto-generated-by: OBO-Edit 2.2-rc1
@@ -16,7 +16,7 @@ property_value: dce:title "C. elegans Development Ontology" xsd:string
 property_value: dce:type IAO:8000001
 property_value: dcterms:license "http://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: IAO:0000700 WBls:0000075
-property_value: owl:versionInfo "2025-08-12" xsd:string
+property_value: owl:versionInfo "2026-04-16" xsd:string
 
 [Term]
 id: WBls:0000001
@@ -290,7 +290,6 @@ synonym: "L2 larva" BROAD []
 is_a: WBls:0000107 ! L2 larval stage
 is_a: WBls:0000819 ! C. elegans life stage occurring during L2 larval stage
 relationship: BFO:0000050 WBls:0000023 ! larva Ce
-relationship: BFO:0000062 WBls:0000024 ! L1 larva Ce
 relationship: RO:0002087 WBls:0000026 ! L1-L2 molt Ce
 
 [Term]
@@ -366,7 +365,6 @@ synonym: "L3 larva" BROAD []
 is_a: WBls:0000108 ! L3 larval stage
 is_a: WBls:0000820 ! C. elegans life stage occurring during L3 larval stage
 relationship: BFO:0000050 WBls:0000023 ! larva Ce
-relationship: BFO:0000062 WBls:0000027 ! L2 larva Ce
 relationship: RO:0002087 WBls:0000029 ! L2-L3 molt Ce
 
 [Term]
@@ -396,7 +394,6 @@ synonym: "L4 larva" BROAD []
 is_a: WBls:0000109 ! L4 larval stage
 is_a: WBls:0000821 ! C. elegans life stage occurring during L4 larval stage
 relationship: BFO:0000050 WBls:0000023 ! larva Ce
-relationship: BFO:0000062 WBls:0000035 ! L3 larva Ce
 relationship: RO:0002087 WBls:0000032 ! dauer larva Ce
 relationship: RO:0002087 WBls:0000037 ! L3-L4 molt Ce
 
