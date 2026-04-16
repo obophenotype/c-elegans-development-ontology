@@ -639,8 +639,8 @@
 <http://purl.obolibrary.org/obo/WBls_0000414>	<http://www.w3.org/2000/01/rdf-schema#label>	"303 min post first-cleavage Ce"	
 <http://purl.obolibrary.org/obo/WBls_0000645>	<http://www.w3.org/2000/01/rdf-schema#label>	"534 min post first-cleavage Ce"	
 <http://purl.obolibrary.org/obo/WBls_0000483>	<http://www.w3.org/2000/01/rdf-schema#label>	"372 min post first-cleavage Ce"	
-<http://purl.obolibrary.org/obo/WBls_0000563>	<http://www.w3.org/2000/01/rdf-schema#label>	"452 min post first-cleavage Ce"	
 <http://purl.obolibrary.org/obo/WBls_0000815>	<http://www.w3.org/2000/01/rdf-schema#label>	"C. elegans life stage occurring during enclosing embryo"@en	
+<http://purl.obolibrary.org/obo/WBls_0000563>	<http://www.w3.org/2000/01/rdf-schema#label>	"452 min post first-cleavage Ce"	
 <http://purl.obolibrary.org/obo/WBls_0000035>	<http://www.w3.org/2000/01/rdf-schema#label>	"L3 larva Ce"	
 <http://purl.obolibrary.org/obo/WBls_0000021>	<http://www.w3.org/2000/01/rdf-schema#label>	"fully-elongated embryo Ce"	
 <http://purl.obolibrary.org/obo/WBls_0000252>	<http://www.w3.org/2000/01/rdf-schema#label>	"141 min post first-cleavage Ce"	
